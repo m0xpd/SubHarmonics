@@ -17,4 +17,4 @@ These two different modulation results are combined in a crossfader circuit (con
 choice OR A MIX of the modulation types at the 'Mod Mix' output.
 
 The sub-harmonic generation and all signal processing is performed in hardware. 
-A small microcontroller (a PIC) is used to read the potentiometers and CV inputs that set the dividers. 
+A small (PIC) microcontroller is used to read the potentiometers and CV inputs that set the dividers. 
