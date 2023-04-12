@@ -15,3 +15,6 @@ the interval between A and B usually falls at a useful musical interval; 'SubHar
 The module also includes a pair of internal modulators, which combine the A and B signals together (through an OR and an Exclusive OR operation). 
 These two different modulation results are combined in a crossfader circuit (controlled by a potentiometer or an external CV input) to give a 
 choice OR A MIX of the modulation types at the 'Mod Mix' output.
+
+The sub-harmonic generation and all signal processing is performed in hardware. 
+A small microcontroller (a PIC) is used to read the potentiometers and CV inputs that set the dividers. 
