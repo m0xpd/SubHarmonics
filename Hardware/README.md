@@ -5,6 +5,8 @@ The information is presented as EAGLE 'sch' and 'brd' files for the two PCBs and
 SubHarmonics is implemented in two modules, each of which has its own PCB. There is a Main Board, hosting the majority of the electronics and
 a Control Board, which contains all the front panel components including the division indicator LEDs and associated decoders.
 
+##Main Board Description
+
 The Main Board schematic is available [here](https://github.com/m0xpd/SubHarmonics/blob/main/Hardware/Main%20Board%20Schematic.png) (or by clicking on the graphic below)
 
 <p align='center' width=100%>
@@ -22,9 +24,11 @@ which implements the divide by 2 on the A channel.
 
 The outputs of the dividers, A and B (and their complements, not_A and not_B) are fed to two modulators, implemented in a quad NOR package (CD4001).
 
-The results of the OR and XOR operations are mixed in a voltaged-controlled mixer, implemented in an LM13700.
+The results of the OR and XOR operations are mixed in a voltaged-controlled crossfader, implemented in an LM13700.
 
 The Main Board includes an In-Circuit Serial Programming (ICSP) interface to facilitate programming the PIC (JP1).
+
+##Control Board Description
 
 The Control Board schematic is available [here](https://github.com/m0xpd/SubHarmonics/blob/main/Hardware/Control%20Board%20Schematic.png) (or by clicking on the graphic below)
 <p align='center' width=100%>
