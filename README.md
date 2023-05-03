@@ -4,7 +4,7 @@
 'SubHarmonics' is a 12 HP Eurorack module which generates two squarewaves ('A' and 'B') which are sub-harmonics of another signal, 'X'.
 
 <p width=100%, align="center">
-<img width=20%, src="https://user-images.githubusercontent.com/3152962/235910644-7287523d-f6e4-4646-8f2e-4d9a3b19b405.png">
+<img width=25%, src="https://user-images.githubusercontent.com/3152962/235910644-7287523d-f6e4-4646-8f2e-4d9a3b19b405.png">
 </p>
 
 
