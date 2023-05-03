@@ -47,7 +47,7 @@ A 0V input on the modulation mix CV gives the XOR modulation and a 5V input give
 harmonics of A and B as well as the sum and difference harmonics). An intermediate gives a mix of both modulation types.
 
 The Main and Control boards are joined by two 20-way 0.1 inch pitch headers. These have been specified with electrical redundancy (several pins are 
-unused) to provide mechanical stability and security in assembling the system.
+unused) to provide mechanical stability and security in assembling the module.
 
 
 
