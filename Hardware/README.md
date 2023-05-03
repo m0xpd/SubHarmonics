@@ -45,3 +45,4 @@ The Main and Control boards are joined by two 20-way 0.1 inch pitch headers. The
 unused) to provide mechanical stability and security in assembling the system.
 
 
+
