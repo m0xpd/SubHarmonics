@@ -5,7 +5,7 @@ The information is presented as EAGLE 'sch' and 'brd' files for the two PCBs and
 SubHarmonics is implemented in two modules, each of which has its own PCB. There is a Main Board, hosting the majority of the electronics and
 a Control Board, which contains all the front panel components including the division indicator LEDs and associated decoders.
 
-The Main Board schematic is available here (or by clicking on the graphic below)
+The Main Board schematic is available [here](https://github.com/m0xpd/SubHarmonics/blob/main/Hardware/Main%20Board%20Schematic.png) (or by clicking on the graphic below)
 
 <p align='center' width=100%>
 
