@@ -54,6 +54,10 @@ unused) to provide mechanical stability and security in assembling the module.
 
 The completed PCBs are seen in the photo below, which shows the Main Board from both sides and the Control Board from the 'top' side (the front panel 
 components all are mounted on the 'bottom' side).
+<p align='center' width=100%>
 
-![SubHarmonics Boards](https://user-images.githubusercontent.com/3152962/235960049-b15abeac-16ee-4c4c-b2ca-04724a21f90d.png)
+<img width=50%, src="https://user-images.githubusercontent.com/3152962/235960049-b15abeac-16ee-4c4c-b2ca-04724a21f90d.png">
+
+</p>
+ 
 
