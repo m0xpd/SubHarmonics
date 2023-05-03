@@ -24,5 +24,24 @@ The outputs of the dividers, A and B (and their complements, not_A and not_B) ar
 
 The results of the OR and XOR operations are mixed in a voltaged-controlled mixer, implemented in an LM13700.
 
+The Main Board includes an In-Circuit Serial Programming (ICSP) interface to facilitate programming the PIC (JP1).
+
+The Control Board schematic is available [here](https://github.com/m0xpd/SubHarmonics/blob/main/Hardware/Control%20Board%20Schematic.png) (or by clicking on the graphic below)
+<p align='center' width=100%>
+
+<img width=50%, src="https://github.com/m0xpd/SubHarmonics/blob/main/Hardware/Control%20Board%20Schematic.png">
+</p>
+
+In addition to controls, inputs and outputs, the Control Board hosts the division indicator LEDs and decoders to control these (which again use 
+CD4051 analog demuxers).
+
+As well as to CV inputs for Pitch and FM, there are CV inputs for the divisors m and n and for the modulation mix. These last three are designed 
+to operate over a range of 0 to 5V, but are protected such that voltages outside these limits will cause no damage.
+
+A 0V input on the modulation mix CV gives the XOR modulation and a 5V input gives the OR modulation (which is spectrally richer, as it includes the
+harmonics of A and B as well as the sum and difference harmonics). An intermediate gives a mix of both modulation types.
+
+The Main and Control boards are joined by two 20-way 0.1 inch pitch headers. These have been specified with electrical redundancy (several pins are 
+unused) to provide mechanical stability and security in assembling the system.
 
 
