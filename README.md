@@ -28,6 +28,6 @@ The sub-harmonic generation and all signal processing is performed in hardware.
 
 A small (PIC) microcontroller is used to read the potentiometers and CV inputs that set the dividers. 
 
-Details of the two PCBs and front panel are provided in the Hardware folder. Code for the 16F676 PIC is presented in the Controller folder.
+Details of the two PCBs and front panel are provided in the [Hardware](https://github.com/m0xpd/SubHarmonics/tree/main/Hardware) folder. Code for the 16F676 PIC is presented in the Controller folder.
 
 The design is published under the Creative Commons CC BY-SA 4.0 License.  
