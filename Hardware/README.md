@@ -9,7 +9,7 @@ The Main Board schematic is available here (or by clicking on the graphic below)
 
 <p align='center' width=100%>
 
-<img width=10%, src="https://github.com/m0xpd/SubHarmonics/blob/main/Hardware/Control%20Board%20Schematic.png">
+<img width=20%, src="https://github.com/m0xpd/SubHarmonics/blob/main/Hardware/Control%20Board%20Schematic.png">
 </p>
 
 
