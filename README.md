@@ -20,7 +20,7 @@ It is seen that the signals A and B are themselves related in frequency by 'the 
 sub-harmonics of X, the interval between A and B usually falls at a useful musical interval; 'SubHarmonics' generates harmony as well as bass and
 waveforms.
 
-The module also includes a pair of internal modulators, which combine the A and B signals together (through an OR and an Exclusive OR operation). 
+SubHarmonics also includes a pair of internal modulators, which combine the A and B signals together (through an OR and an Exclusive OR operation). 
 The OR modulation is equivalent (for these signals A,B) to simple unbalanced modulation, as performed by (e.g.) an AND gate, whilst the Exclusive OR
 modulation implements the balanced modulation of A & B (as in a 'ring modulator'). I described the equivalence of OR and AND gates as modulators for 
 the special class of 'antipalindromic' inputs (such as the present A and B signals) at tedious length [here](http://m0xpd.blogspot.com/2023/03/logic-gates-and-modulation-curiosity.html)
