@@ -16,7 +16,7 @@ The Main Board schematic is available [here](https://github.com/m0xpd/SubHarmoni
 </p>
 
 The VCO borrows directly from the ['Shapes VCO' design by Moritz Klein](https://www.youtube.com/watch?v=QBatvo8bCa4), subsequently used in his VCO for the [Erica Synths Edu DIY VCO](https://www.ericasynths.lv/shop/diy-kits-1/edu-diy-vco/). The output of this VCO - or the input from an external 'X' source - is 
-applied to the 'Divider_In' input of the SubHarmonic Dividers, the input stages of which form a 0 - 5V pulse signal at X. 
+applied to the 'Divider_In' input of the SubHarmonic Dividers, the input stages of which provide a 0 : 5V pulse at node 'X'. 
 
 The division is achieved by a pair of CD4015 (Decade counter) and CD4051 (Analog Mux/Demux) in conventional configuration. The divisor is set by 
 a PIC microcontroller, which reads a potentiometer or a CV input signal and decodes the voltage (0-5V) into one of 8 settings for the dividers.
@@ -43,8 +43,8 @@ CD4051 analog demuxers).
 As well as to CV inputs for Pitch and FM, there are CV inputs for the divisors m and n and for the modulation mix. These last three are designed 
 to operate over a range of 0 to 5V, but are protected such that voltages outside these limits will cause no damage.
 
-A 0V input on the modulation mix CV gives the XOR modulation and a 5V input gives the OR modulation (which is spectrally richer, as it includes the
-harmonics of A and B as well as the sum and difference harmonics). An intermediate gives a mix of both modulation types.
+A 0V input on the modulation mix CV input gives the XOR modulation and a 5V input gives the OR modulation (which is spectrally richer, as it includes the
+harmonics of A and B as well as the sum and difference harmonics). An intermediate control voltage gives a mix of both modulation types.
 
 The Main and Control boards are joined by two 20-way 0.1 inch pitch headers. These have been specified with electrical redundancy (several pins are 
 unused) to provide mechanical stability and security in assembling the module.
