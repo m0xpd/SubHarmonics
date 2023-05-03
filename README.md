@@ -32,6 +32,8 @@ the special class of 'antipalindromic' inputs (such as the present A and B signa
 The two different modulation results are combined in a crossfader circuit (controlled by a potentiometer or an external CV input) to give a single 
 output which offers a choice OR A MIX of the modulation types at the 'Mod Mix' output.
 
+### Module Details
+
 The sub-harmonic generation and all signal processing is performed in hardware. 
 
 A small (PIC) microcontroller is used to read the potentiometers and CV inputs that set the dividers. 
