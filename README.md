@@ -37,7 +37,7 @@ to give a single output which offers a choice OR A MIX of the modulation types a
 
 The sub-harmonic generation and all signal processing is performed in hardware. 
 
-A small (PIC) microcontroller is used to read the potentiometers and CV inputs that set the dividers. 
+A small (PIC) microcontroller is used to read the potentiometers and CV inputs and set the dividers. 
 
 Details of the two PCBs and front panel are provided in the [Hardware](https://github.com/m0xpd/SubHarmonics/tree/main/Hardware) folder. Code for 
 the 16F676 PIC is presented in the Controller folder.
