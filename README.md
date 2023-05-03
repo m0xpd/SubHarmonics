@@ -17,9 +17,10 @@ giving the unit a range of a little over four octaves.
 These divisors (m := fX/fA, n := fx/fB) are voltage controlled - they can be set by potentiometers or by control voltages applied from external sources.
 
 It is seen that the signals A and B are themselves related in frequency by 'the ratio of two small integers' (m/n). So, in addition to each being 
-sub-harmonics of X, the interval between A and B usually falls at a useful musical interval; 'SubHarmonics' generates harmony as well as bass and
-waveforms.
-
+sub-harmonics of X, the interval between A and B usually falls at a useful musical interval; 
+<p align='center'>
+'SubHarmonics' generates harmony as well as bass and waveforms.
+</p>
 SubHarmonics also includes a pair of internal modulators, which combine the A and B signals together (through an OR and an Exclusive OR operation). 
 The OR modulation is equivalent (for these signals A,B) to simple unbalanced modulation, as performed by (e.g.) an AND gate, whilst the Exclusive OR
 modulation implements the balanced modulation of A & B (as in a 'ring modulator'). I described the equivalence of OR and AND gates as modulators for 
