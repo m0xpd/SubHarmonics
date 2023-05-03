@@ -18,14 +18,16 @@ The Main Board schematic is available [here](https://github.com/m0xpd/SubHarmoni
 The VCO borrows directly from the ['Shapes VCO' design by Moritz Klein](https://www.youtube.com/watch?v=QBatvo8bCa4), subsequently used in his VCO for the [Erica Synths Edu DIY VCO](https://www.ericasynths.lv/shop/diy-kits-1/edu-diy-vco/). The output of this VCO - or the input from an external 'X' source - is 
 applied to the 'Divider_In' input of the SubHarmonic Dividers, the input stages of which provide a 0 : 5V pulse at node 'X'. 
 
+The system was designed around 'available materials' in my 'stores' - in this case, mainly CD4000-series CMOS logic devices. 
+
 The division is achieved by a pair of CD4015 (Decade counter) and CD4051 (Analog Mux/Demux) in conventional configuration. The divisor is set by 
 a PIC microcontroller, which reads a potentiometer or a CV input signal and decodes the voltage (0-5V) into one of 8 settings for the dividers.
-A further divide-by-2 stage, implemented in a CD4013 (D-type SR flip-flop) applied to the outputs of the dividers adds another octave of division, 
-which completes the divide by 2 on the A channel.
+A further divide-by-2 stage, implemented in a CD4013 (D-type SR flip-flop) applied to the outputs of the dividers adds another octave of division 
+(necessary to implement the m=2 setting on the A channel).
 
 The outputs of the dividers, A and B (and their complements, not_A and not_B) are fed to two modulators, implemented in a quad NOR package (CD4001).
 
-The results of the OR and XOR operations are mixed in a voltaged-controlled crossfader, implemented in an LM13700.
+The results of the OR and XOR operations are mixed in a voltaged-controlled crossfader, implemented in half an LM13700.
 
 The Main Board includes an In-Circuit Serial Programming (ICSP) interface to facilitate programming the PIC (JP1).
 
