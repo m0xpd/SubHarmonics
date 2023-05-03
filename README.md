@@ -22,6 +22,8 @@ sub-harmonics of X, the interval between A and B usually falls at a useful music
 'SubHarmonics' generates harmony as well as bass and waveforms.
 </p>
 
+## Internal Modulation
+
 SubHarmonics also includes a pair of internal modulators, which combine the A and B signals together (through an OR and an Exclusive OR operation). 
 The OR modulation is equivalent (for these signals A,B) to simple unbalanced modulation, as performed by (e.g.) an AND gate, whilst the Exclusive OR
 modulation implements the balanced modulation of A & B (as in a 'ring modulator'). I described the equivalence of OR and AND gates as modulators for 
