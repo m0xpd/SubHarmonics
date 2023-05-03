@@ -33,7 +33,7 @@ A and B signals) at tedious length [here.](http://m0xpd.blogspot.com/2023/03/log
 The two different modulation results are combined in a voltage-controlled crossfader circuit (controlled by a potentiometer or an external CV input) 
 to give a single output which offers a choice OR A MIX of the modulation types at the 'Mod Mix' output.
 
-### Module Details
+### Miscellaneous Details
 
 The sub-harmonic generation and all signal processing is performed in hardware. 
 
