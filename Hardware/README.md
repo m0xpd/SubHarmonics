@@ -21,7 +21,7 @@ applied to the 'Divider_In' input of the SubHarmonic Dividers, the input stages 
 The division is achieved by a pair of CD4015 (Decade counter) and CD4051 (Analog Mux/Demux) in conventional configuration. The divisor is set by 
 a PIC microcontroller, which reads a potentiometer or a CV input signal and decodes the voltage (0-5V) into one of 8 settings for the dividers.
 A further divide-by-2 stage, implemented in a CD4013 (D-type SR flip-flop) applied to the outputs of the dividers adds another octave of division, 
-which implements the divide by 2 on the A channel.
+which completes the divide by 2 on the A channel.
 
 The outputs of the dividers, A and B (and their complements, not_A and not_B) are fed to two modulators, implemented in a quad NOR package (CD4001).
 
