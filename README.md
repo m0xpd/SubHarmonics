@@ -32,6 +32,10 @@ The sub-harmonic generation and all signal processing is performed in hardware.
 
 A small (PIC) microcontroller is used to read the potentiometers and CV inputs that set the dividers. 
 
-Details of the two PCBs and front panel are provided in the [Hardware](https://github.com/m0xpd/SubHarmonics/tree/main/Hardware) folder. Code for the 16F676 PIC is presented in the Controller folder.
+Details of the two PCBs and front panel are provided in the [Hardware](https://github.com/m0xpd/SubHarmonics/tree/main/Hardware) folder. Code for 
+the 16F676 PIC is presented in the Controller folder.
+
+SubHarmonics is 12HP wide, requires 38mm behind the front panel (with the power header fitted) and consumes  xxmA from the 12V rail and xxmA 
+from the -12V rail.
 
 The design is published under the Creative Commons CC BY-SA 4.0 [License](https://github.com/m0xpd/SubHarmonics/blob/main/LICENSE.txt).  
