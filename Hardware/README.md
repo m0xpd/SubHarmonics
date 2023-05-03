@@ -12,7 +12,7 @@ The Main Board schematic is available [here](https://github.com/m0xpd/SubHarmoni
 <img width=50%, src="https://github.com/m0xpd/SubHarmonics/blob/main/Hardware/Main%20Board%20Schematic.png">
 </p>
 
-The VCO borrows directly from the 'Shapes VCO' design by Moritz Klein, subsequently used in his VCO for the [Erica Synths Edu DIY VCO](https://www.ericasynths.lv/shop/diy-kits-1/edu-diy-vco/). The output of this VCO - or the input from an external 'X' source - is 
+The VCO borrows directly from the ['Shapes VCO' design by Moritz Klein](https://www.youtube.com/watch?v=QBatvo8bCa4), subsequently used in his VCO for the [Erica Synths Edu DIY VCO](https://www.ericasynths.lv/shop/diy-kits-1/edu-diy-vco/). The output of this VCO - or the input from an external 'X' source - is 
 applied to the 'Divider_In' input of the SubHarmonic Dividers, the input stages of which form a 0 - 5V pulse signal at X. 
 
 The division is achieved by a pair of CD4015 (Decade counter) and CD4051 (Analog Mux/Demux) in conventional configuration. The divisor is set by 
