@@ -21,7 +21,7 @@ applied to the 'Divider_In' input of the SubHarmonic Dividers, the input stages 
 
 The system was designed around 'available materials' in my 'stores' - in this case, mainly CD4000-series CMOS logic devices. 
 
-The divisions in each of the two channels is achieved by a pair of CD4015 (Decade counter) and CD4051 (Analog Mux/Demux) in conventional 
+The divisions in each of the two channels are achieved by a CD4015 (Decade counter) and a CD4051 (Analog Mux/Demux) in conventional 
 configuration. The divisor is set by a PIC microcontroller, which reads a potentiometer or a CV input signal and decodes the voltage (0-5V) into 
 one-of-8 settings for the dividers.
 
