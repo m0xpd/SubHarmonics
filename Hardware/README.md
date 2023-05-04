@@ -32,7 +32,7 @@ The results of the OR and XOR operations are mixed in a voltaged-controlled cros
 
 The Main Board includes an In-Circuit Serial Programming (ICSP) interface to facilitate programming the PIC (JP1).
 
-There is a [.sch](https://github.com/m0xpd/SubHarmonics/blob/main/Hardware/PCBs/SubHarmonics%20Main%20Board%20v2.sch) file, a [.brd](https://github.com/m0xpd/SubHarmonics/blob/main/Hardware/PCBs/SubHarmonics%20Main%20Board%20v2.brd) file and a [BoM](https://github.com/m0xpd/SubHarmonics/blob/main/Hardware/PCBs/SubHarmonics%20Main%20Board%20v2%20BoM.txt) for the Main Board in the [PCBs folder](https://github.com/m0xpd/SubHarmonics/tree/main/Hardware/PCBs).
+There is a [.sch](https://github.com/m0xpd/SubHarmonics/blob/main/Hardware/PCBs/SubHarmonics%20Main%20Board%20v2.sch) file, a [.brd](https://github.com/m0xpd/SubHarmonics/blob/main/Hardware/PCBs/SubHarmonics%20Main%20Board%20v2.brd) file and a [BoM](https://github.com/m0xpd/SubHarmonics/blob/main/Hardware/PCBs/SubHarmonics%20Main%20Board%20v2%20BoM.txt) for the Main Board in EAGLE format in the [PCBs folder](https://github.com/m0xpd/SubHarmonics/tree/main/Hardware/PCBs).
 
 ## Control Board Description
 
@@ -50,6 +50,8 @@ to operate over a range of 0 to 5V, but are protected such that voltages outside
 
 A 0V input on the modulation mix CV input gives the XOR modulation and a 5V input gives the OR modulation (which is spectrally richer, as it includes the
 harmonics of A and B as well as the sum and difference harmonics). An intermediate control voltage gives a mix of both modulation types.
+
+There is a [.sch](https://github.com/m0xpd/SubHarmonics/blob/main/Hardware/PCBs/SubHarmonics%20Control%20Board%20v1.sch) file, a [.brd](https://github.com/m0xpd/SubHarmonics/blob/main/Hardware/PCBs/SubHarmonics%20Control%20Board%20v1.brd) file and a [BoM](https://github.com/m0xpd/SubHarmonics/blob/main/Hardware/PCBs/SubHarmonics%20Control%20Board%20v1%20BoM.txt) for the Control Board in EAGLE format in the [PCBs folder.](https://github.com/m0xpd/SubHarmonics/tree/main/Hardware/PCBs)
 
 The Main and Control boards are joined by two 20-way 0.1 inch pitch headers. These have been specified with electrical redundancy (several pins are 
 unused) to provide mechanical stability and security in assembling the module.
