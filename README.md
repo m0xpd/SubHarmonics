@@ -20,7 +20,7 @@ These divisors (m := f <sub> x </sub> / f <sub> A </sub>, n := f <sub> x </sub> 
 It is seen that the signals A and B are themselves related in frequency by 'the ratio of two small integers' (m/n). So, in addition to each being 
 sub-harmonics of X, the ratio between A and B usually falls at a musically useful interval; 
 <p align="center">
-'SubHarmonics' generates harmony as well as bass.
+### 'SubHarmonics' generates harmony as well as bass.
 </p>
  
 
