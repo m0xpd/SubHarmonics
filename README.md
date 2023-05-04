@@ -44,7 +44,7 @@ TR1 (a single turn 100k preset) controls the balance of the modulation mix cross
 Set the divisors to m=2, n=6 using the front panel controls and the frequency to an arbitrary value (around 300Hz). View the 'A' and 'Mod Mix' outputs. Adjust TR1 until you see these waveforms at the extreme ends of the Mix control:
 
 <p align="center", width=100%>
-<img width=50%, src="https://user-images.githubusercontent.com/3152962/236217616-001e9e9f-921f-4f88-9135-332b86309243.png">
+<img width=70%, src="https://user-images.githubusercontent.com/3152962/236217616-001e9e9f-921f-4f88-9135-332b86309243.png">
 </p>
 
 (the yellow trace is the 'A' output, which stays the same in this setup process, the blue trace is the 'Mod Mix' output, which will change when you adjust TR1)
