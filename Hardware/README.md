@@ -19,7 +19,7 @@ The Main Board schematic is available [here](https://github.com/m0xpd/SubHarmoni
 The VCO borrows directly from the ['Shapes VCO' design by Moritz Klein](https://www.youtube.com/watch?v=QBatvo8bCa4), subsequently used in his VCO for the [Erica Synths Edu DIY VCO](https://www.ericasynths.lv/shop/diy-kits-1/edu-diy-vco/). The output of this VCO - or the input from an external 'X' source - is 
 applied to the 'Divider_In' input of the SubHarmonic Dividers, the input stages of which provide a 0 : 5V pulse at node 'X'. 
 
-The system was designed around 'available materials' in my 'stores' - in this case, mainly CD4000-series CMOS logic devices. 
+The system was designed around 'available materials' I found lying around my bench - in this case, mainly CD4000-series CMOS logic devices. 
 
 The divisions in each of the two channels are achieved by a CD4015 (Decade counter) and a CD4051 (Analog Mux/Demux) in conventional 
 configuration. The divisor is set by a PIC microcontroller, which reads a potentiometer or a CV input signal and decodes the voltage (0-5V) into 
