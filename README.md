@@ -39,7 +39,7 @@ There are two presets that need adjustment on completion of the module to setup 
 
 TR2 (a multi-turn 1k preset) controls the 1V/Octave tracking. It should be set by connecting the module to a reliable source of pitch CV signals and monitoring the outputs. I use octave outputs from a BeatStep Pro (you can use a keyboard with CV pitch outputs or simply a known voltage source) and listen to the pitch change. I find it easy to tune octaves by ear but, if you are uncertain, use a tuner or frequency counter.
 
-TR1 (a single turn 100k preset) controls the balance of the modulation mix crossfader. To set it properly requires access to an oscilloscope to see the 'Mod Mix' output waveform. If you have no access to a 'scope, set TR1 to about 60k.
+TR1 (a single turn 100k preset) controls the balance of the modulation mix crossfader. To set it properly requires access to an oscilloscope to see the 'Mod Mix' output waveform. If you have no access to a 'scope, set TR1 to about 60kΩ.
 
 If you do have a 'scope, set the divisors to m=2, n=6 (using the front panel controls) and the frequency to an arbitrary value (around 300Hz). View the 'A' and 'Mod Mix' outputs on the 'scope. Adjust TR1 until you see these waveforms when you put the Mix control at extreme ends of its travel (or, equivalently, apply 0V or 5V CV signals to the Mix input):
 
