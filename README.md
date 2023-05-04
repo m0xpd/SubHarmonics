@@ -47,7 +47,7 @@ If you do have a 'scope, set the divisors to m=2, n=6 (using the front panel con
 <img width=70%, src="https://user-images.githubusercontent.com/3152962/236217616-001e9e9f-921f-4f88-9135-332b86309243.png">
 </p>
 
-(the yellow trace is the 'A' output, which stays the same in this setup process, the blue trace is the 'Mod Mix' output, which will change when you adjust TR1)
+(the yellow trace is the 'A' output, which stays the same in this setup process (and is included only as a 'reference'), the blue trace is the 'Mod Mix' output, which will change when you adjust TR1)
 
 Note that the 'Mod Mix' output is inverted (it runs 0 to approx -4V); there wasn't a spare op-amp stage to restore polarity after the crossfader. 
 This doesn't matter in ordinary applications; the ear is insensitive to the inversion and it will sound the same!
