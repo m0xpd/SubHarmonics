@@ -23,6 +23,8 @@ sub-harmonics of X, the interval between A and B usually falls at a useful music
 'SubHarmonics' generates harmony as well as bass.
 </p>
 
+
+
 ### Internal Modulators
 
 SubHarmonics also includes a pair of internal modulators, which combine the A and B signals together (through an OR and an Exclusive OR operation) to
