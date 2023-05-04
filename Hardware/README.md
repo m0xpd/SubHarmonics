@@ -34,7 +34,7 @@ The results of the OR and XOR operations are mixed in a voltaged-controlled cros
 
 The [schematic](https://github.com/m0xpd/SubHarmonics/blob/main/Hardware/PCBs/SubHarmonics%20Main%20Board%20v2.sch) and [BoM](https://github.com/m0xpd/SubHarmonics/blob/main/Hardware/PCBs/SubHarmonics%20Main%20Board%20v2%20BoM.txt) show LM324 quad op-amps. These work fine in this application, but you can substitute the ubiquitous TL074 if you prefer. 
 
-The Main Board includes an In-Circuit Serial Programming (ICSP) interface to facilitate programming the PIC (JP1).
+The Main Board includes an In-Circuit Serial Programming (ICSP) interface (JP1) to facilitate programming the PIC.
 
 There is a [.sch](https://github.com/m0xpd/SubHarmonics/blob/main/Hardware/PCBs/SubHarmonics%20Main%20Board%20v2.sch) file, a [.brd](https://github.com/m0xpd/SubHarmonics/blob/main/Hardware/PCBs/SubHarmonics%20Main%20Board%20v2.brd) file and a [BoM](https://github.com/m0xpd/SubHarmonics/blob/main/Hardware/PCBs/SubHarmonics%20Main%20Board%20v2%20BoM.txt) for the Main Board in EAGLE format in the [PCBs folder](https://github.com/m0xpd/SubHarmonics/tree/main/Hardware/PCBs).
 
