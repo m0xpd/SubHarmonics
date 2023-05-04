@@ -1,7 +1,7 @@
 # Hardware
 This folder contains hardware descriptions of the 'SubHarmonics' module.
 
-The information is presented as EAGLE 'sch' and 'brd' files for the two PCBs (in the PCBs folder) and as a small Kicad project for the front panel (in
+The information is presented as EAGLE 'sch' and 'brd' files for the two PCBs (in the [PCBs folder](https://github.com/m0xpd/SubHarmonics/tree/main/Hardware/PCBs) ) and as a small Kicad project for the front panel (in
 the FrontPanel folder).
 
 SubHarmonics is implemented in two modules, each of which has its own PCB. There is a Main Board, hosting the majority of the electronics and
@@ -31,6 +31,8 @@ The outputs of the dividers, A and B (and their complements, not_A and not_B) ar
 The results of the OR and XOR operations are mixed in a voltaged-controlled crossfader, implemented in half an LM13700.
 
 The Main Board includes an In-Circuit Serial Programming (ICSP) interface to facilitate programming the PIC (JP1).
+
+There is a [.sch](https://github.com/m0xpd/SubHarmonics/blob/main/Hardware/PCBs/SubHarmonics%20Main%20Board%20v2.sch) file, a [.brd](https://github.com/m0xpd/SubHarmonics/blob/main/Hardware/PCBs/SubHarmonics%20Main%20Board%20v2.brd) file and a [BoM](https://github.com/m0xpd/SubHarmonics/blob/main/Hardware/PCBs/SubHarmonics%20Main%20Board%20v2%20BoM.txt) for the Main Board in the [PCBs folder](https://github.com/m0xpd/SubHarmonics/tree/main/Hardware/PCBs).
 
 ## Control Board Description
 
