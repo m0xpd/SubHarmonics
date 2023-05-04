@@ -1,0 +1,74 @@
+Partlist exported from /Users/pauldarlington/Documents/EAGLE/projects/Harmonic Division Oscillator/SubHarmonics Main Board v2.sch at 04/05/2023 08:00
+
+Part Value        Device                Package              Description                                    MF        MPN           OC_FARNELL OC_NEWARK POPULARITY SPICEPREFIX
+C1   0.1u         C-EU050-025X075       C050-025X075         CAPACITOR, European symbol                                                                  29         C          
+C2   1u           CPOL-EUE2.5-5         E2,5-5               POLARIZED CAPACITOR, European symbol                                                        16         C          
+C3   10u          CPOL-EUE2.5-5         E2,5-5               POLARIZED CAPACITOR, European symbol                                                        16         C          
+C4   0.1u         C-EU050-025X075       C050-025X075         CAPACITOR, European symbol                                                                  29         C          
+C5   22u          CPOL-EUE2.5-5         E2,5-5               POLARIZED CAPACITOR, European symbol                                                        16         C          
+C6   0.1u         C-EU050-025X075       C050-025X075         CAPACITOR, European symbol                                                                  29         C          
+C7   22u          CPOL-EUE2.5-5         E2,5-5               POLARIZED CAPACITOR, European symbol                                                        16         C          
+C8   0.1u         C-EU050-025X075       C050-025X075         CAPACITOR, European symbol                                                                  29         C          
+C9   0.1u         C-EU050-025X075       C050-025X075         CAPACITOR, European symbol                                                                  29         C          
+C10  2n2          C-EU050-030X075       C050-030X075         CAPACITOR, European symbol                                                                  9          C          
+C11  1u           CPOL-EUE2.5-5         E2,5-5               POLARIZED CAPACITOR, European symbol                                                        16         C          
+D1   1N5817       SCHOTTKY-DIODEDO35-7  DO35-7               Schottky Diode                                                                              3                     
+D2   1N5817       SCHOTTKY-DIODEDO35-7  DO35-7               Schottky Diode                                                                              3                     
+D3   1N4148DO35-7 1N4148DO35-7          DO35-7               DIODE                                                                                       58                    
+D4   1N4148DO35-7 1N4148DO35-7          DO35-7               DIODE                                                                                       58                    
+D5   1N4148DO35-7 1N4148DO35-7          DO35-7               DIODE                                                                                       58                    
+D6   1N4148DO35-7 1N4148DO35-7          DO35-7               DIODE                                                                                       58                    
+D7   1N4148DO35-7 1N4148DO35-7          DO35-7               DIODE                                                                                       58                    
+D8   1N4148DO35-7 1N4148DO35-7          DO35-7               DIODE                                                                                       58                    
+IC1  40106N       40106N                DIL14                Hex SCHMITT TRIGGER                                                                         4                     
+IC2  4051N        4051N                 DIL16                8-channel ANALOG MULTIPLEXER                                                                15                    
+IC3  4051N        4051N                 DIL16                8-channel ANALOG MULTIPLEXER                                                                15                    
+IC4  PIC16F676P   PIC16F676P            DIL14                14-Pin, Flash-Based 8-Bit CMOS Microcontroller MICROCHIP PIC16F676-I/P 9760512    54K2829   0                     
+IC5  LM324N       LM324N                DIL14                OP AMP                                                                                      9                     
+IC6  LM324N       LM324N                DIL14                OP AMP                                                                                      9                     
+IC7  4017N        4017N                 DIL16                COUNTER/DIVIDER                                                                             2                     
+IC8  4017N        4017N                 DIL16                COUNTER/DIVIDER                                                                             2                     
+IC9  4013N        4013N                 DIL14                Dual D FLIP FLOP, set/reset                                                                 4                     
+IC10 4001N        4001N                 DIL14                Quad 2-input NOR                                                                            1                     
+IC11 LM13700N     LM13700N              DIL16                Dual OTA with buffers                                                                                             
+IC12              78LXX                 78LXX                VOLTAGE REGULATOR                                                                           6                     
+JP1               PINHD-1X6             1X06                 PIN HEADER                                                                                  79                    
+JP2               PINHD-1X20            1X20                 PIN HEADER                                                                                  6                     
+JP3               PINHD-1X20            1X20                 PIN HEADER                                                                                  6                     
+Q1   2N3906       2N3906                TO92                 PNP Transistor                                                                              11                    
+Q2   BC556A       BC556A                TO92-EBC             PNP Transistror                                                                             0                     
+Q3   BC546A       BC546A                TO92-EBC             NPN Transistor                                                                              0                     
+Q4   BC546A       BC546A                TO92-EBC             NPN Transistor                                                                              0                     
+Q5   BC546A       BC546A                TO92-EBC             NPN Transistor                                                                              0                     
+Q6   BC556A       BC556                 TO92-EBC             PNP Transistror                                                                             2                     
+R1   10           R-EU_0204/7           0204/7               RESISTOR, European symbol                                                                   79         R          
+R2   10           R-EU_0204/7           0204/7               RESISTOR, European symbol                                                                   79         R          
+R3   10k          R-EU_0204/7           0204/7               RESISTOR, European symbol                                                                   79         R          
+R4   270k         R-EU_0204/7           0204/7               RESISTOR, European symbol                                                                   79         R          
+R5   10k          R-EU_0204/7           0204/7               RESISTOR, European symbol                                                                   79         R          
+R6   1k           R-EU_0204/7           0204/7               RESISTOR, European symbol                                                                   79         R          
+R7   6k8          R-EU_0204/7           0204/7               RESISTOR, European symbol                                                                   79         R          
+R8   220k         R-EU_0204/7           0204/7               RESISTOR, European symbol                                                                   79         R          
+R9   220k         R-EU_0204/7           0204/7               RESISTOR, European symbol                                                                   79         R          
+R10  1k           R-EU_0204/7           0204/7               RESISTOR, European symbol                                                                   79         R          
+R11  1k           R-EU_0204/7           0204/7               RESISTOR, European symbol                                                                   79         R          
+R12  47k          R-EU_0204/7           0204/7               RESISTOR, European symbol                                                                   79         R          
+R13  1k5          R-EU_0204/7           0204/7               RESISTOR, European symbol                                                                   79         R          
+R14  1M           R-EU_0204/7           0204/7               RESISTOR, European symbol                                                                   79         R          
+R15  100k         R-EU_0204/7           0204/7               RESISTOR, European symbol                                                                   79         R          
+R16  1M           R-EU_0204/7           0204/7               RESISTOR, European symbol                                                                   79         R          
+R17  100k         R-EU_0204/7           0204/7               RESISTOR, European symbol                                                                   79         R          
+R18  22k          R-EU_0204/7           0204/7               RESISTOR, European symbol                                                                   79         R          
+R19  10           R-EU_0204/7           0204/7               RESISTOR, European symbol                                                                   79         R          
+R20  22k          R-EU_0204/7           0204/7               RESISTOR, European symbol                                                                   79         R          
+R21  33k          R-EU_0204/7           0204/7               RESISTOR, European symbol                                                                   79         R          
+R22  10k          R-EU_0204/7           0204/7               RESISTOR, European symbol                                                                   79         R          
+R23  100k         R-EU_0204/7           0204/7               RESISTOR, European symbol                                                                   79         R          
+R24  47k          R-EU_0204/7           0204/7               RESISTOR, European symbol                                                                   79         R          
+R25  100k         R-EU_0204/7           0204/7               RESISTOR, European symbol                                                                   79         R          
+R26  100k         R-EU_0204/7           0204/7               RESISTOR, European symbol                                                                   79         R          
+R27  100k         R-EU_0204/7           0204/7               RESISTOR, European symbol                                                                   79         R          
+R28  100k         R-EU_0204/7           0204/7               RESISTOR, European symbol                                                                   79         R          
+TR1  100k         BOURNS_3362P_TRIMMERP BOURNS_3362P_TRIMMER 3362 Series                                                                                                       
+TR2  1k           TRIM_EU-B64Y          B64Y                 POTENTIOMETER                                                                               0                     
+X2   2510-        2510-                 PAK100/2500-10       3M (TM) Pak 100 4-Wall Header                  3M        2510-6002UB   9838244    46F4725   0                     

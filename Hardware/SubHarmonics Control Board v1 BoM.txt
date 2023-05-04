@@ -1,0 +1,71 @@
+Partlist exported from /Users/pauldarlington/Documents/EAGLE/projects/Harmonic Division Oscillator/SubHarmonics Control Board v1.sch at 04/05/2023 07:58
+
+Part  Value           Device           Package            Description                                       POPULARITY SPICEPREFIX
+C11   0.1u            C-EU050-025X075  C050-025X075       CAPACITOR, European symbol                        29         C          
+C12   0.1u            C-EU050-025X075  C050-025X075       CAPACITOR, European symbol                        29         C          
+C13   0.1u            C-EU050-025X075  C050-025X075       CAPACITOR, European symbol                        29         C          
+D9    1N5817-T        1N5817-T         DO41-7.6           1.0A SCHOTTKY BARRIER RECTIFIER                   0                     
+D10   1N5817-T        1N5817-T         DO41-7.6           1.0A SCHOTTKY BARRIER RECTIFIER                   0                     
+D11   1N5817-T        1N5817-T         DO41-7.6           1.0A SCHOTTKY BARRIER RECTIFIER                   0                     
+D12   1N5817-T        1N5817-T         DO41-7.6           1.0A SCHOTTKY BARRIER RECTIFIER                   0                     
+IC11  4051N           4051N            DIL16              8-channel ANALOG MULTIPLEXER                      15                    
+IC12  4051N           4051N            DIL16              8-channel ANALOG MULTIPLEXER                      15                    
+JP4                   PINHD-1X20       1X20               PIN HEADER                                        6                     
+JP5                   PINHD-1X20       1X20               PIN HEADER                                        6                     
+LED1                  LED3MM           LED3MM             LED                                                                     
+LED2                  LED3MM           LED3MM             LED                                                                     
+LED3                  LED3MM           LED3MM             LED                                                                     
+LED4                  LED3MM           LED3MM             LED                                                                     
+LED5                  LED3MM           LED3MM             LED                                                                     
+LED6                  LED3MM           LED3MM             LED                                                                     
+LED7                  LED3MM           LED3MM             LED                                                                     
+LED8                  LED3MM           LED3MM             LED                                                                     
+LED9                  LED3MM           LED3MM             LED                                                                     
+LED10                 LED3MM           LED3MM             LED                                                                     
+LED11                 LED3MM           LED3MM             LED                                                                     
+LED12                 LED3MM           LED3MM             LED                                                                     
+LED13                 LED3MM           LED3MM             LED                                                                     
+LED14                 LED3MM           LED3MM             LED                                                                     
+LED15                 LED3MM           LED3MM             LED                                                                     
+LED16                 LED3MM           LED3MM             LED                                                                     
+R30   1k              R-EU_0204/7      0204/7             RESISTOR, European symbol                         79         R          
+R31   220k            R-EU_0204/7      0204/7             RESISTOR, European symbol                         79         R          
+R32   10k             R-EU_0204/7      0204/7             RESISTOR, European symbol                         79         R          
+R33   1k              R-EU_0204/7      0204/7             RESISTOR, European symbol                         79         R          
+R34   220k            R-EU_0204/7      0204/7             RESISTOR, European symbol                         79         R          
+R35   10k             R-EU_0204/7      0204/7             RESISTOR, European symbol                         79         R          
+R36   1k              R-EU_0204/7      0204/7             RESISTOR, European symbol                         79         R          
+R37   220k            R-EU_0204/7      0204/7             RESISTOR, European symbol                         79         R          
+R38   470             R-EU_0204/7      0204/7             RESISTOR, European symbol                         79         R          
+R39   470             R-EU_0204/7      0204/7             RESISTOR, European symbol                         79         R          
+R40   470             R-EU_0204/7      0204/7             RESISTOR, European symbol                         79         R          
+R41   470             R-EU_0204/7      0204/7             RESISTOR, European symbol                         79         R          
+R42   100k            R-EU_0204/7      0204/7             RESISTOR, European symbol                         79         R          
+R43   100k            R-EU_0204/7      0204/7             RESISTOR, European symbol                         79         R          
+R44   33k             R-EU_0204/7      0204/7             RESISTOR, European symbol                         79         R          
+R45   1M              R-EU_0204/7      0204/7             RESISTOR, European symbol                         79         R          
+R46   100k            R-EU_0204/7      0204/7             RESISTOR, European symbol                         79         R          
+R47   100k            R-EU_0204/7      0204/7             RESISTOR, European symbol                         79         R          
+R48   100k            R-EU_0204/7      0204/7             RESISTOR, European symbol                         79         R          
+R49   2k2             R-EU_0204/7      0204/7             RESISTOR, European symbol                         79         R          
+R50   2k2             R-EU_0204/7      0204/7             RESISTOR, European symbol                         79         R          
+SK1   THONKICONN_JACK THONKICONN_JACK  WQP-PJ301M-12_JACK                                                                         
+SK2   THONKICONN_JACK THONKICONN_JACK  WQP-PJ301M-12_JACK                                                                         
+SK3   THONKICONN_JACK THONKICONN_JACK  WQP-PJ301M-12_JACK                                                                         
+SK4   THONKICONN_JACK THONKICONN_JACK  WQP-PJ301M-12_JACK                                                                         
+SK5   THONKICONN_JACK THONKICONN_JACK  WQP-PJ301M-12_JACK                                                                         
+SK6   THONKICONN_JACK THONKICONN_JACK  WQP-PJ301M-12_JACK                                                                         
+SK7   THONKICONN_JACK THONKICONN_JACK  WQP-PJ301M-12_JACK                                                                         
+SK8   THONKICONN_JACK THONKICONN_JACK  WQP-PJ301M-12_JACK                                                                         
+SK9   THONKICONN_JACK THONKICONN_JACK  WQP-PJ301M-12_JACK                                                                         
+SK10  THONKICONN_JACK THONKICONN_JACK  WQP-PJ301M-12_JACK                                                                         
+VAR1  10k             VARISTOR         C025-024X044       NTC Varistor                                                            
+VAR2  10k             VARISTOR         C025-024X044       NTC Varistor                                                            
+VAR3  10k             VARISTOR         C025-024X044       NTC Varistor                                                            
+VAR4  10k             VARISTOR         C025-024X044       NTC Varistor                                                            
+VR1   100k            9MM_SNAP-IN_POT_ 9MM_SNAP-IN_POT    9mm vertical snap-in pot, Alpha / Panasonic style                       
+VR2   100k            9MM_SNAP-IN_POT_ 9MM_SNAP-IN_POT    9mm vertical snap-in pot, Alpha / Panasonic style                       
+VR3   1M              9MM_SNAP-IN_POT_ 9MM_SNAP-IN_POT    9mm vertical snap-in pot, Alpha / Panasonic style                       
+VR4   100k            9MM_SNAP-IN_POT_ 9MM_SNAP-IN_POT    9mm vertical snap-in pot, Alpha / Panasonic style                       
+VR5   100k            9MM_SNAP-IN_POT_ 9MM_SNAP-IN_POT    9mm vertical snap-in pot, Alpha / Panasonic style                       
+VR6   100k            9MM_SNAP-IN_POT_ 9MM_SNAP-IN_POT    9mm vertical snap-in pot, Alpha / Panasonic style                       
