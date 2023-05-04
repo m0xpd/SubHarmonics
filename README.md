@@ -18,11 +18,12 @@ giving the unit a range of a little over four octaves (18 ≈ 2 <sup> 4.17 </sup
 These divisors (m := f <sub> x </sub> / f <sub> A </sub>, n := f <sub> x </sub> / f <sub> B </sub>) are voltage controlled - they can be set by potentiometers or by control voltages applied from external sources.
 
 It is seen that the signals A and B are themselves related in frequency by 'the ratio of two small integers' (m/n). So, in addition to each being 
-sub-harmonics of X, the interval between A and B usually falls at a useful musical interval; 
+sub-harmonics of X, the ratio between A and B usually falls at a musically useful interval; 
 <p align="center">
 'SubHarmonics' generates harmony as well as bass.
 </p>
-  
+ 
+
   
   
   
