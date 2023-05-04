@@ -43,8 +43,8 @@ Details of the two PCBs and front panel are provided in the [Hardware](https://g
 the 16F676 PIC is presented in the Controller folder.
 
 SubHarmonics is:
-12HP wide, 
-requires 38mm behind the front panel (with the power header fitted) and 
-draws 13.5mA from the 12V rail and 5mA from the -12V rail.
+12HP wide,   
+requires 38mm behind the front panel (with the power header fitted) and.  
+draws 13.5mA from the 12V rail and 5mA from the -12V rail.  
 
 The design is published under a Creative Commons CC BY-SA 4.0 [License](https://github.com/m0xpd/SubHarmonics/blob/main/LICENSE.txt).  
