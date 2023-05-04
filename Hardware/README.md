@@ -67,4 +67,11 @@ components all are mounted on the 'bottom' side).
 
 </p>
  
+## Front Panel
 
+<p align='center' width=100%>
+<img width=30% alt="SubHarmonics Front Panel" src="https://user-images.githubusercontent.com/3152962/236173525-1e971dc4-d22e-4279-936f-0c3533a29177.png">
+
+</p>
+
+A simple Kicad project defining a Front Panel for the module is available in the [FrontPanel folder.](https://github.com/m0xpd/SubHarmonics/tree/main/Hardware/FrontPanel) 
