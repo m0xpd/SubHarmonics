@@ -25,8 +25,8 @@ sub-harmonics of X, the interval between A and B usually falls at a useful music
 ### Internal Modulators
 
 SubHarmonics also includes a pair of internal modulators, which combine the A and B signals together (through an OR and an Exclusive OR operation) to
-exploit and develop the harmonic relationship between A and B into a richer sound. The OR modulation is equivalent (for these signals A,B) to simple
-unbalanced modulation, as performed by (e.g.) an AND gate, whilst the Exclusive OR modulation implements the balanced modulation of A with B (as in a 
+exploit and develop the harmonic relationship between A and B into a richer sound. The OR modulation is equivalent (for these signals A, B) to simple
+amplitude modulation, as performed by (e.g.) an AND gate, whilst the Exclusive OR modulation implements the balanced modulation of A with B (as in a 
 'ring modulator'). I described the equivalence of OR and AND gates as modulators for the special class of 'antipalindromic' inputs (such as the present 
 A and B signals) at tedious length [here.](http://m0xpd.blogspot.com/2023/03/logic-gates-and-modulation-curiosity.html)
 
