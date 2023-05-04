@@ -22,8 +22,8 @@ sub-harmonics of X, the interval between A and B usually falls at a useful music
 <p align="center">
 'SubHarmonics' generates harmony as well as bass.
 </p>
-
-
+   
+  
 
 ### Internal Modulators
 
