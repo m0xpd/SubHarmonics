@@ -35,9 +35,9 @@ to give a single output which offers a choice OR A MIX of the modulation types a
 
 ### Setup
 
-There are two presets that need adjustment on completion of the module to commision and setup for use. Both are located on the topside of the Main Board.
+There are two presets that need adjustment on completion of the module to setup for use. Both are located on the topside of the Main Board.
 
-TR2 (a multi-turn 1k preset) controls the 1V/Octave tracking. It should be set by connecting the module to a reliable source of pitch CV signals and monitoring the outputs. I use octave outputs from a BeatStep Pro - you can use a keyboard with CV pitch outputs or simply a known voltage source - and listen to the pitch change. I find it easy to tune octaves by ear but, if you are uncertain, use a tuner or frequency counter.
+TR2 (a multi-turn 1k preset) controls the 1V/Octave tracking. It should be set by connecting the module to a reliable source of pitch CV signals and monitoring the outputs. I use octave outputs from a BeatStep Pro (you can use a keyboard with CV pitch outputs or simply a known voltage source) and listen to the pitch change. I find it easy to tune octaves by ear but, if you are uncertain, use a tuner or frequency counter.
 
 TR1 (a single turn 100k preset) controls the balance of the modulation mix crossfader. To set it properly requires access to an oscilloscope to see the 'Mod Mix' output waveform.
 
@@ -52,6 +52,7 @@ Set the divisors to m=2, n=6 using the front panel controls and the frequency to
 Note that the 'Mod Mix' output is inverted (it runs 0 to approx -4V); there wasn't a spare op-amp stage to restore polarity after the crossfader. 
 This doesn't matter in ordinary applications; the ear is insensitive to the inversion and it will sound the same!
 
+If you have no access to a 'scope, set TR1 to about 60k.
 
 ### Miscellaneous Details
 
