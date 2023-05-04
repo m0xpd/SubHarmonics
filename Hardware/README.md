@@ -1,7 +1,8 @@
 # Hardware
 This folder contains hardware descriptions of the 'SubHarmonics' module.
 
-The information is presented as EAGLE 'sch' and 'brd' files for the two PCBs and as a small Kicad project for the front panel.
+The information is presented as EAGLE 'sch' and 'brd' files for the two PCBs (in the PCBs folder) and as a small Kicad project for the front panel (in
+the FrontPanel folder).
 
 SubHarmonics is implemented in two modules, each of which has its own PCB. There is a Main Board, hosting the majority of the electronics and
 a Control Board, which contains all the front panel components including the division indicator LEDs and associated decoders.
