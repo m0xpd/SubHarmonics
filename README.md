@@ -39,9 +39,9 @@ There are two presets that need adjustment on completion of the module to setup 
 
 TR2 (a multi-turn 1k preset) controls the 1V/Octave tracking. It should be set by connecting the module to a reliable source of pitch CV signals and monitoring the outputs. I use octave outputs from a BeatStep Pro (you can use a keyboard with CV pitch outputs or simply a known voltage source) and listen to the pitch change. I find it easy to tune octaves by ear but, if you are uncertain, use a tuner or frequency counter.
 
-TR1 (a single turn 100k preset) controls the balance of the modulation mix crossfader. To set it properly requires access to an oscilloscope to see the 'Mod Mix' output waveform.
+TR1 (a single turn 100k preset) controls the balance of the modulation mix crossfader. To set it properly requires access to an oscilloscope to see the 'Mod Mix' output waveform. If you have no access to a 'scope, set TR1 to about 60k.
 
-Set the divisors to m=2, n=6 using the front panel controls and the frequency to an arbitrary value (around 300Hz). View the 'A' and 'Mod Mix' outputs. Adjust TR1 until you see these waveforms at the extreme ends of the Mix control:
+If you do have a 'scope, set the divisors to m=2, n=6 (using the front panel controls) and the frequency to an arbitrary value (around 300Hz). View the 'A' and 'Mod Mix' outputs on the 'scope. Adjust TR1 until you see these waveforms when you put the Mix control at extreme ends of its travel (or, equivalently, apply 0V or 5V CV signals to the Mix input):
 
 <p align="center", width=100%>
 <img width=70%, src="https://user-images.githubusercontent.com/3152962/236217616-001e9e9f-921f-4f88-9135-332b86309243.png">
@@ -52,7 +52,7 @@ Set the divisors to m=2, n=6 using the front panel controls and the frequency to
 Note that the 'Mod Mix' output is inverted (it runs 0 to approx -4V); there wasn't a spare op-amp stage to restore polarity after the crossfader. 
 This doesn't matter in ordinary applications; the ear is insensitive to the inversion and it will sound the same!
 
-If you have no access to a 'scope, set TR1 to about 60k.
+
 
 ### Miscellaneous Details
 
