@@ -49,6 +49,10 @@ Set the divisors to m=2, n=6 using the front panel controls and the frequency to
 
 (the yellow trace is the 'A' output, which stays the same in this setup process, the blue trace is the 'Mod Mix' output, which will change when you adjust TR1)
 
+Note that the 'Mod Mix' output is inverted (it runs 0 to approx -4V); there wasn't a spare op-amp stage to restore polarity after the crossfader. 
+This doesn't matter in ordinary applications; the ear is insensitive to the inversion and it will sound the same!
+
+
 ### Miscellaneous Details
 
 The sub-harmonic generation and all signal processing is performed in hardware. 
