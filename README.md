@@ -33,6 +33,22 @@ A and B signals) at tedious length [here.](http://m0xpd.blogspot.com/2023/03/log
 The two different modulation results are combined in a voltage-controlled crossfader circuit (controlled by a potentiometer or an external CV input) 
 to give a single output which offers a choice OR A MIX of the modulation types at the 'Mod Mix' output.
 
+### Setup
+
+There are two presets that need adjustment on completion of the module to commision and setup for use. Both are located on the topside of the Main Board.
+
+TR2 (a multi-turn 1k preset) controls the 1V/Octave tracking. It should be set by connecting the module to a reliable source of pitch CV signals and monitoring the outputs. I use octave outputs from a BeatStep Pro - you can use a keyboard with CV pitch outputs or simply a known voltage source - and listen to the pitch change. I find it easy to tune octaves by ear but, if you are uncertain, use a tuner or frequency counter.
+
+TR1 (a single turn 100k preset) controls the balance of the modulation mix crossfader. To set it properly requires access to an oscilloscope to see the 'Mod Mix' output waveform.
+
+Set the divisors to m=2, n=6 using the front panel controls and the frequency to an arbitrary value (around 300Hz). View the 'A' and 'Mod Mix' outputs. Adjust TR1 until you see these waveforms at the extreme ends of the Mix control:
+
+<p align="center", width=100%>
+<img width=30%, src="https://user-images.githubusercontent.com/3152962/236217616-001e9e9f-921f-4f88-9135-332b86309243.png">
+</p>
+
+(the yellow trace is the 'A' output, which stays the same in this setup process, the blue trace is the 'Mod Mix' output, which will change when you adjust TR1)
+
 ### Miscellaneous Details
 
 The sub-harmonic generation and all signal processing is performed in hardware. 
