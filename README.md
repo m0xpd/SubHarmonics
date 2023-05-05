@@ -54,7 +54,8 @@ If you do have a 'scope, set the divisors to m=2, n=6 (using the front panel con
 <img width=70%, src="https://user-images.githubusercontent.com/3152962/236217616-001e9e9f-921f-4f88-9135-332b86309243.png">
 </p>
 
-(the yellow trace is the 'A' output, which stays the same in this setup process and is included only as a 'reference', the blue trace is the 'Mod Mix' output, which will change when you adjust TR1)
+(the yellow trace is the 'A' output, which stays the same in this setup process and is included only as a 'reference', the blue trace is the 'Mod Mix' output, which will change when you adjust TR1)  
+
 [If you do not see this waveform on the ModMix output with these settings, it may be due to the phase relationship between the dividers - if this is the case, change the value of 'n' using the potentiometer all the way up to 18 and back to 6 and see if the phase is re-aligned.]
 
 Note that the 'Mod Mix' output is inverted (it runs 0 to approx -4V); there wasn't a spare op-amp stage to restore polarity after the crossfader. 
