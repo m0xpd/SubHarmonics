@@ -56,7 +56,7 @@ If you do have a 'scope, set the divisors to m=2, n=6 (using the front panel con
 
 (the yellow trace is the 'A' output, which stays the same in this setup process and is included only as a 'reference', the blue trace is the 'Mod Mix' output, which will change when you adjust TR1)  
 
-[If you do not see this waveform on the ModMix output with these settings, it may be due to the phase relationship between the dividers - if this is the case, change the value of 'n' using the potentiometer all the way up to 18 and back to 6 and see if the phase is re-aligned.]
+[If you do not see this waveform on the ModMix output with these settings, it may be due to the phase relationship between the dividers - if this is the case, change the value of 'n' using the potentiometer all the way up to 18 and back to 6 and see if the phase is re-aligned. This is perfectly normal and is not a fault - there is another 'mode' of the system in the m=2, n=6 configuration to that illustrated above.]
 
 Note that the 'Mod Mix' output is inverted (it runs 0 to approx -4V); there wasn't a spare op-amp stage to restore polarity after the crossfader. 
 This doesn't matter in ordinary applications; the ear is insensitive to the inversion and it will sound the same!
