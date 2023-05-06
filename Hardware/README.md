@@ -30,7 +30,7 @@ A further divide-by-2 stage, implemented in a CD4013 (D-type SR flip-flop) appli
 
 The outputs of the dividers, A and B (and their complements, not_A and not_B) are fed to two modulators, implemented in a quad NOR package (CD4001).
 
-The results of the OR and XOR operations are mixed in a voltaged-controlled crossfader, implemented in half an LM13700.
+The results of the OR and XOR operations are mixed in a voltage-controlled crossfader, implemented in half an LM13700.
 
 The [schematic](https://github.com/m0xpd/SubHarmonics/blob/main/Hardware/PCBs/SubHarmonics%20Main%20Board%20v2.sch) and [BoM](https://github.com/m0xpd/SubHarmonics/blob/main/Hardware/PCBs/SubHarmonics%20Main%20Board%20v2%20BoM.txt) show LM324 quad op-amps. These work fine in this application, but you can substitute the ubiquitous TL074 if you prefer. 
 
