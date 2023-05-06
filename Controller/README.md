@@ -7,7 +7,7 @@ It was developed in C in Microchip's [MPLAB IDE](https://www.microchip.com/en-us
 The [code](https://github.com/m0xpd/SubHarmonics/blob/main/Controller/Divide_Controller.c) should be placed within an MPLAB project for the 16F676, built and programmed into the device using a suitable programmer.
 
 I programmed the first PIC using my [PICKit 3](https://www.microchip.com/en-us/development-tool/PG164130) and my old [k1el PIC Programming Adapter](https://hamcrafters2.com/PICPGM.html), but I designed an In-Circuit Serial Programming 
-Interface into the SubHarmonics Main Board, so you can program direcly on the module:
+Interface into the SubHarmonics Main Board, so you can program directly on the module:
 <p align='center', width=100%>
 <img width=40%, src="https://user-images.githubusercontent.com/3152962/236197306-bf2e7ddb-bf9c-495e-948b-5d6adda1a3b3.png">
 </p>
