@@ -75,7 +75,7 @@ The process is not deterministic, but you will soon get the feel for it.
 
 I adjust the largest divisor (i.e. max(m,n)) by one step for a couple of seconds and listen for the result.
 
-There is a video, demonstrating these ideas with two percussion voices, here.
+There is a video, demonstrating these ideas with two percussion voices, [here](https://youtu.be/6WWO7RoppK4).
 
 You can easily set up a reasonably complex rhythm generator, with triggers from A, B, logical operations on A and B (I like to 
 use an external AND gate driven by A and B, occasionally with extra inputs - as there is no AND modulator internal to SubHarmonics) 
