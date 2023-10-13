@@ -38,7 +38,7 @@ the clock signals (X, A & B) to derive more interesting patterns.
 Remember that SubHarmonics has it's own pair of internal logic modulators, which combine the A and B signals (through OR 
 and XOR functions). These are combined at the 'ModMix' output and can be selected by the 'Mix' control (or by CV). 
 This was desiged for use when the ModMix output was interpreted as an 'analog' audio signal (rather than a Boolean switching 
-signal). Accorindingly, there are a couple of issues for the present application:
+signal). Accorindingly, there are a couple of issues for the present 'Rhythm Generator' application:
 
 1) Signals from the 'ModMix' output are inverted, running from 0 to -3.75V. To use as conventional (positive true) logic 
 signals, they must be inverted. I use a Voltage Processor to perform this inversion ('Maths' or any capable processor can 
