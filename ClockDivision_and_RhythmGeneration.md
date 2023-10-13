@@ -29,7 +29,7 @@ Similarly, even integer divisions from 10 to 18 can be achieved directly.
 Given the clock division described above, it is possible to take the divided clock signals and use them to trigger 
 percussive sounds, making SubHarmonics a Rhythm Generator. 
 
-The complexity of the rhythms generated is greatly increased if logic operations AND, OR XOR, etc) are performed between 
+The complexity of the rhythms generated is greatly increased if logic operations (AND, OR XOR, etc) are performed between 
 the clock signals (X, A & B) to derive more interesting patterns.
 
 Remember that SubHarmonics has it's own pair of internal logic modulators, which combine the A and B signals (through OR 
@@ -43,24 +43,32 @@ do the job). You can just shift the level (rather than do an inversion) but this
 as it will generate a different pattern and potentially useful if you don't have the resource to do the actual inversion.
 
 2) There is no real meaning in the mixed signals for intermediate settings of the 'Mix' control in this context; the mix 
-is only relevant to the output when used in 'analog' applications - so switching between the two modlators is best achieved 
+is only relevant to the output when used in 'analog' applications - so switching between the two modulators is best achieved 
 with changes between extreme settings of the 'Mix' control (0 or 5V CV) to give either the OR or the XOR modulator.
 
-Finally, AND MOST IMPORTANTLY, the two dividers are not locked. This allows you to deliberately change the 'phase' between 
+Finally, AND **MOST IMPORTANTLY**, the two dividers are not locked. This allows you to deliberately change the 'phase' between 
 the SubHarmonics A & B. This allows a lot of additional variation in rhythm generation.
 
 Change is achieved by intentionally changing the setting of one of the divisors (m or n), which introduces a relative delay 
 (or advance, depending upon if you increase of decrease the divisor) relative to the other subharmonic, thereby changing the 
 'phase'. 
 
-The process is not deterministic, but you will soon get the feel for it. I adjust the largest divisor (i.e. max(m,n))
-by one step for a couple of seconds and listen for the result.
+The process is not deterministic, but you will soon get the feel for it. 
+
+I adjust the largest divisor (i.e. max(m,n)) by one step for a couple of seconds and listen for the result.
 
 There is a video, demonstrating these ideas, here.
 
-You can set up a reasonably complex rhythm generator, with triggers from A, B, logical operations on A and B (I like to 
+You can easily set up a reasonably complex rhythm generator, with triggers from A, B, logical operations on A and B (I like to 
 use an external AND gate driven by A and B, occasionally with extra inputs - as there is no AND modulator inernal SubHarmonics) 
-and, of course, ModMix. You can set up the base pattern with m & n and introduce variation by 
+and, of course, ModMix. 
+
+You can set up the base pattern with m & n and introduce variation by 
 * changing the phase and 
 * switching between the internal modulators by appliying CV changes to the Mix input.
 
+**SubHarmonics** generates 
+* melody, using its VCO,
+* bass, using its dividers,
+* harmony, using its modulators, and
+* rhythm, using the process described above.
