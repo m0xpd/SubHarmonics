@@ -68,7 +68,7 @@ and, of course, ModMix.
 
 You can set up the base pattern with m & n and introduce variation by 
 * changing the 'phase' and 
-* switching between the internal modulators by appliying CV changes to the Mix input.
+* switching between the internal modulators by applying CV changes to the Mix input.
 
 **SubHarmonics** generates 
 * melody, using its VCO,
