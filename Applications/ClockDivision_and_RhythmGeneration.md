@@ -89,5 +89,5 @@ You can set up the base pattern with m & n and introduce variation by
 **SubHarmonics** generates 
 * melody, using its VCO,
 * bass, using its dividers,
-* harmony, using its modulators, and
-* rhythm, using the process described above.
+* harmony, using its modulators, 
+* **and rhythm**, using the process described above.
