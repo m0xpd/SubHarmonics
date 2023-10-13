@@ -1,7 +1,7 @@
 If you reduce the frequency of SubHarmonics' VCO or apply a clock signal to the 'Ext X In' from an LFO or similar source,
 you enable a range of opportunities in **Clock Division** and **Rhythm Generation**.
 
-**SubHarmonics as a Clock Divider**
+## SubHarmonics as a Clock Divider 
 
 The two divider chains of SubHarmonics will offer direct division of the X clock by ratios of:
 
@@ -27,7 +27,7 @@ to ten can be achieved:
 
 Similarly, even integer divisions from 10 to 18 can be achieved directly.
 
-**Building Rhythm using SubHarmonics**
+## Building Rhythm using SubHarmonics
 
 Given the clock division described above, it is possible to take the divided clock signals and use them to trigger 
 percussive sounds, making SubHarmonics a Rhythm Generator. 
