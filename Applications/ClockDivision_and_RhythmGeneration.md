@@ -64,27 +64,29 @@ The 'scope traces show:
 The left-hand image shows the response with the OR modulator (Mix control fully clockwise or 5V CV Input) and the right-hand 
 trace shows the response with the XOR modulator (Mix control fully counter clockwise or 0V CV input).
 
-Finally, AND **MOST IMPORTANTLY**, the two dividers are not locked. This allows you to deliberately change the 'phase' between 
-the SubHarmonics A & B. This allows a lot of **additional variation in rhythm generation**.
+Finally, AND **MOST IMPORTANTLY**, the two dividers are independant. This allows you to deliberately change the 'phase' between 
+the SubHarmonics A & B. This introduces **additional variation in rhythm generation**.
 
-Change is achieved by intentionally changing the setting of one of the divisors (m or n), which introduces a relative delay 
-(or advance, depending upon if you increase of decrease the divisor) relative to the other subharmonic, thereby changing the 
+Variation is achieved by briefly changing the setting of one of the divisors (m or n), which introduces a relative delay 
+(or advance, depending if you increase or decrease the divisor) relative to the other subharmonic, thereby changing the 
 'phase'. 
 
-The process is not deterministic, but you will soon get the feel for it. 
+The process is not deterministic, but you will soon 'get the feel for it'. 
 
-I adjust the largest divisor (i.e. max(m,n)) by one step for a couple of seconds and listen for the result.
+I prefer to adjust the largest divisor (i.e. max(m,n)) by one step for a couple of seconds and listen for the result before returning 
+to the nominal value.
 
 There is a video, demonstrating these ideas with two percussion voices, [here](https://youtu.be/6WWO7RoppK4).
 
-You can easily set up a reasonably complex rhythm generator, with triggers from A, B, logical operations on A and B (I like to 
+You can easily set up a reasonably complex rhythm source, with triggers from A, B, logical operations on A and B (I like to 
 use an external AND gate driven by A and B, occasionally with extra inputs - as there is no AND modulator internal to SubHarmonics) 
 and, of course, ModMix. 
 
-You can set up the base pattern with m & n and introduce variation by 
+You establish a basic pattern by setting m & n and introduce variation by 
 * changing the 'phase' and 
-* switching between the internal modulators by applying CV changes to the Mix input.
+* switching between the internal modulators.
 
+---
 
 **SubHarmonics** can be used to generate 
 * melody, using its VCO,
