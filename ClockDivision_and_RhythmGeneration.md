@@ -18,8 +18,9 @@ between A and B 2:6 (or 1:3).
 Similarly, other odd integer ratios can be established via this 'secondary' approach, such that all integer ratios up 
 to ten can be achieved:
 
-
-
 <p width=100%, align="center">
-<img width=25%, src="https://user-images.githubusercontent.com/3152962/235910644-7287523d-f6e4-4646-8f2e-4d9a3b19b405.png">
+<img width=25%, src="https://github.com/m0xpd/SubHarmonics/assets/3152962/3bf43167-c673-4f93-8707-54ffae79b5f1">
 </p>
+
+Similarly, even integer divisions from 10 to 18 can be achieved directly.
+
