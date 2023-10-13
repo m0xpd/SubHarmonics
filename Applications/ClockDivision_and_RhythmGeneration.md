@@ -49,6 +49,21 @@ as it will generate a different pattern and potentially useful if you don't have
 is only relevant to the output when used in 'analog' applications - so switching between the two modulators is best achieved 
 with changes between extreme settings of the 'Mix' control (0 or 5V CV) to give either the XOR or the OR modulator.
 
+The onsequence of changing the Mix control is illustrated in this example:
+
+<p width=100%, align="center">
+<img width=25%, src="https://github.com/m0xpd/SubHarmonics/assets/3152962/8604f31f-071f-46c7-b7de-0dbd757d9ca6">
+</p>
+
+The 'scope traces show: 
+* the X signal (top trace, Yellow)
+* the A subharmonic, m=8, (second trace, Cyan)
+* the B subharmonic, n=16, (third trace, Blue)
+* the Mix output, (bottom trace, Purple)
+
+The left-hand image shows the response with the OR modulator (Mix control fully clockwise or 5V CV Input) and the right-hand 
+trace shows the response with the XOR modulator (Mix control fully counter clockwise or 0V CV input).
+
 Finally, AND **MOST IMPORTANTLY**, the two dividers are not locked. This allows you to deliberately change the 'phase' between 
 the SubHarmonics A & B. This allows a lot of **additional variation in rhythm generation**.
 
