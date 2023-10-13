@@ -25,7 +25,7 @@ sub-harmonics of X, the ratio between A and B often falls at a musically useful 
 </p>
  
 
-  
+Other time-domain applications of 'SubHarmonics' in Clock Division and Rhythm Generation are described [here.](https://github.com/m0xpd/SubHarmonics/blob/main/Applications/ClockDivision_and_RhythmGeneration.md)
   
   
 
