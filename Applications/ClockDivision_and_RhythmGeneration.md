@@ -47,7 +47,7 @@ as it will generate a different pattern and potentially useful if you don't have
 
 2) There is no real meaning in the mixed signals for intermediate settings of the 'Mix' control in this context; the mix 
 is only relevant to the output when used in 'analog' applications - so switching between the two modulators is best achieved 
-with changes between extreme settings of the 'Mix' control (0 or 5V CV) to give either the OR or the XOR modulator.
+with changes between extreme settings of the 'Mix' control (0 or 5V CV) to give either the XOR or the OR modulator.
 
 Finally, AND **MOST IMPORTANTLY**, the two dividers are not locked. This allows you to deliberately change the 'phase' between 
 the SubHarmonics A & B. This allows a lot of **additional variation in rhythm generation**.
