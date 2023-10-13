@@ -15,8 +15,8 @@ These divisions can be set either by the manual m & n divisor controls or by CV 
 
 Many 'secondary' divisions can be established between A and B outputs. 
 
-For example, with m=2 and n=6 the ratio between X and A is 1:2 and the ratio between X and B is 1:6, making the ratio 
-between A and B 2:6 (or 1:3).
+For example, with m=2 and n=6 the ratio between X and A is 1:2 and the ratio between X and B is 1:6, 
+making the ratio between A and B 2:6 (1:3).
 
 Similarly, other odd integer ratios can be established via this 'secondary' approach, such that all integer ratios up 
 to ten can be achieved:
