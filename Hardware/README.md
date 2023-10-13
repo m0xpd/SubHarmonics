@@ -16,7 +16,7 @@ The Main Board schematic is available [here](https://github.com/m0xpd/SubHarmoni
 <img width=50%, src="https://github.com/m0xpd/SubHarmonics/blob/main/Hardware/Main%20Board%20Schematic.png">
 </p>
 
-The VCO was inspired by the ['Shapes VCO' design by Moritz Klein](https://www.youtube.com/watch?v=QBatvo8bCa4), subsequently used in his VCO for the [Erica Synths Edu DIY VCO](https://www.ericasynths.lv/shop/diy-kits-1/edu-diy-vco/). Since developing 'SunHarmonics', I have learned that the core of the 40106 VCO was not a Klein original, but had been proposed earlier by Mark Shaner (a.k.a. "Synthmonger"), who published the idea [here.](https://electro-music.com/forum/topic-28799.html) The output of this 'Shaner' 40106 VCO - or the input from an external 'X' source - is 
+The VCO was inspired by the ['Shapes VCO' design by Moritz Klein](https://www.youtube.com/watch?v=QBatvo8bCa4), subsequently used in his VCO for the [Erica Synths Edu DIY VCO](https://www.ericasynths.lv/shop/diy-kits-1/edu-diy-vco/). Since developing 'SubHarmonics', I have learned that the core of the 40106 VCO was not a Klein original, but had been proposed earlier by Mark Shaner (a.k.a. "Synthmonger"), who published the idea [here.](https://electro-music.com/forum/topic-28799.html) The output of this 'Shaner' 40106 VCO - or the input from an external 'X' source - is 
 applied to the 'Divider_In' input of the SubHarmonic Dividers, the input stages of which provide a 0 : 5V pulse at node 'X'. 
 
 The system was designed around 'available materials' I found lying around my bench - in this case, mainly CD4000-series CMOS logic devices. 
