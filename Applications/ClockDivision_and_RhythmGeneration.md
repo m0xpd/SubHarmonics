@@ -67,7 +67,7 @@ use an external AND gate driven by A and B, occasionally with extra inputs - as 
 and, of course, ModMix. 
 
 You can set up the base pattern with m & n and introduce variation by 
-* changing the phase and 
+* changing the 'phase' and 
 * switching between the internal modulators by appliying CV changes to the Mix input.
 
 **SubHarmonics** generates 
