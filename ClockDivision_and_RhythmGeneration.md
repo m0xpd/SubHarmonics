@@ -1,7 +1,7 @@
 If you reduce the frequency of SubHarmonics' VCO or apply a clock signal to the 'Ext X In' from an LFO or similar source,
 you enable a range of opportunities in Clock Division and Rhythm Generation.
 
-*SubHarmonics as a Clock Divider
+**SubHarmonics as a Clock Divider
 
 The two divider chains of SubHarmonics will offer direct division of the X clock by ratios of:
 2, 4, 6, 8, 10, 12, 14 & 16   (for the A output) 
@@ -23,4 +23,44 @@ to ten can be achieved:
 </p>
 
 Similarly, even integer divisions from 10 to 18 can be achieved directly.
+
+**Building Rhythm using SubHarmonics
+
+Given the clock division described above, it is possible to take the divided clock signals and use them to trigger 
+percussive sounds, making SubHarmonics a Rhythm Generator. 
+
+The complexity of the rhythms generated is greatly increased if logic operations AND, OR XOR, etc) are performed between 
+the clock signals (X, A & B) to derive more interesting patterns.
+
+Remember that SubHarmonics has it's own pair of internal logic modulators, which combine the A and B signals (through OR 
+and XOR functions). These are combined at the 'ModMix' output and can be selected by the 'Mix' control (or by CV). 
+This was desiged for use when the ModMix output was interpreted as an 'analog' audio signal (rather than a Boolean switching 
+signal). Accorindingly, there are a couple of issues for the present application:
+
+1) Signals from the 'ModMix' output are inverted, running from 0 to -3.75V. To use as conventional (positive true) logic 
+signals, they must be inverted. I use a Voltage Processor to perform this inversion ('Maths' or any capable processor can 
+do the job). You can just shift the level (rather than do an inversion) but this results in a different function - interesting
+as it will generate a different pattern and potentially useful if you don't have the resource to do the actual inversion.
+
+2) There is no real meaning in the mixed signals for intermediate settings of the 'Mix' control in this context; the mix 
+is only relevant to the output when used in 'analog' applications - so switching between the two modlators is best achieved 
+with changes between extreme settings of the 'Mix' control (0 or 5V CV) to give either the OR or the XOR modulator.
+
+Finally, AND MOST IMPORTANTLY, the two dividers are not locked. This allows you to deliberately change the 'phase' between 
+the SubHarmonics A & B. This allows a lot of additional variation in rhythm generation.
+
+Change is achieved by intentionally changing the setting of one of the divisors (m or n), which introduces a relative delay 
+(or advance, depending upon if you increase of decrease the divisor) relative to the other subharmonic, thereby changing the 
+'phase'. 
+
+The process is not deterministic, but you will soon get the feel for it. I adjust the largest divisor (i.e. max(m,n))
+by one step for a couple of seconds and listen for the result.
+
+There is a video, demonstrating these ideas, here.
+
+You can set up a reasonably complex rhythm generator, with triggers from A, B, logical operations on A and B (I like to 
+use an external AND gate driven by A and B, occasionally with extra inputs - as there is no AND modulator inernal SubHarmonics) 
+and, of course, ModMix. You can set up the base pattern with m & n and introduce variation by 
+* changing the phase and 
+* switching between the internal modulators by appliying CV changes to the Mix input.
 
