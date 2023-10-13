@@ -4,6 +4,7 @@ you enable a range of opportunities in **Clock Division** and **Rhythm Generatio
 **SubHarmonics as a Clock Divider**
 
 The two divider chains of SubHarmonics will offer direct division of the X clock by ratios of:
+
 2, 4, 6, 8, 10, 12, 14 & 16   (for the A output) 
 and
 4, 6, 8, 10, 12, 14, 16, & 18 (for the B output)
