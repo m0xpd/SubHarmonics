@@ -86,7 +86,7 @@ You can set up the base pattern with m & n and introduce variation by
 * switching between the internal modulators by applying CV changes to the Mix input.
 
 
-**SubHarmonics** generates 
+**SubHarmonics** can be used to generate 
 * melody, using its VCO,
 * bass, using its dividers,
 * harmony, using its modulators, 
