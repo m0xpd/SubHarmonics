@@ -50,7 +50,7 @@ is only relevant to the output when used in 'analog' applications - so switching
 with changes between extreme settings of the 'Mix' control (0 or 5V CV) to give either the OR or the XOR modulator.
 
 Finally, AND **MOST IMPORTANTLY**, the two dividers are not locked. This allows you to deliberately change the 'phase' between 
-the SubHarmonics A & B. This allows a lot of additional variation in rhythm generation.
+the SubHarmonics A & B. This allows a lot of **additional variation in rhythm generation**.
 
 Change is achieved by intentionally changing the setting of one of the divisors (m or n), which introduces a relative delay 
 (or advance, depending upon if you increase of decrease the divisor) relative to the other subharmonic, thereby changing the 
@@ -69,6 +69,7 @@ and, of course, ModMix.
 You can set up the base pattern with m & n and introduce variation by 
 * changing the 'phase' and 
 * switching between the internal modulators by applying CV changes to the Mix input.
+
 
 **SubHarmonics** generates 
 * melody, using its VCO,
