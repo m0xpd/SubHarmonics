@@ -22,7 +22,7 @@ Similarly, other odd integer ratios can be established via this 'secondary' appr
 to ten can be achieved:
 
 <p width=100%, align="center">
-<img width=50%, src="https://github.com/m0xpd/SubHarmonics/assets/3152962/3bf43167-c673-4f93-8707-54ffae79b5f1">
+<img width=25%, src="https://github.com/m0xpd/SubHarmonics/assets/3152962/3bf43167-c673-4f93-8707-54ffae79b5f1">
 </p>
 
 Similarly, even integer divisions from 10 to 18 can be achieved directly.
