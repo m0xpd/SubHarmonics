@@ -25,13 +25,13 @@ sub-harmonics of X, the ratio between A and B often falls at a musically useful 
 </p>
  
 
-Other time-domain applications of 'SubHarmonics' in Clock Division and Rhythm Generation are described [here.](https://github.com/m0xpd/SubHarmonics/blob/main/Applications/ClockDivision_and_RhythmGeneration.md)
+Other applications of 'SubHarmonics' in Clock Division and Rhythm Generation are described [here.](https://github.com/m0xpd/SubHarmonics/blob/main/Applications/ClockDivision_and_RhythmGeneration.md)
   
   
 
 ### Internal Modulators
 
-SubHarmonics also includes a pair of internal modulators, which combine the A and B signals together (through an OR and an Exclusive OR operation) to
+SubHarmonics includes a pair of internal modulators, which combine the A and B signals together (through an OR and an Exclusive OR operation) to
 exploit and develop the harmonic relationship between A and B into a richer sound. The OR modulation is equivalent (for these signals A, B) to simple
 amplitude modulation, as performed by (e.g.) an AND gate, whilst the Exclusive OR modulation implements the balanced modulation of A with B (as in a 
 'ring modulator'). I described the equivalence of OR and AND gates as modulators for the special class of 'antipalindromic' inputs (such as the present 
