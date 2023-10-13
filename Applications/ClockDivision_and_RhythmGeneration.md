@@ -63,7 +63,7 @@ I adjust the largest divisor (i.e. max(m,n)) by one step for a couple of seconds
 There is a video, demonstrating these ideas, here.
 
 You can easily set up a reasonably complex rhythm generator, with triggers from A, B, logical operations on A and B (I like to 
-use an external AND gate driven by A and B, occasionally with extra inputs - as there is no AND modulator inernal SubHarmonics) 
+use an external AND gate driven by A and B, occasionally with extra inputs - as there is no AND modulator internal to SubHarmonics) 
 and, of course, ModMix. 
 
 You can set up the base pattern with m & n and introduce variation by 
