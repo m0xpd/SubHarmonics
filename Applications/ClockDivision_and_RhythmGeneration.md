@@ -87,7 +87,7 @@ where Tx is the clock period and *gcd()* is the [greatest common divisor.](https
 Some examples are tabulated below:
 
 <p width=100%, align="center">
-<img width=25%, src="https://github.com/m0xpd/SubHarmonics/assets/3152962/9bca16ce-19ae-4891-a1a6-16e3af95ba21">
+<img width=20%, src="https://github.com/m0xpd/SubHarmonics/assets/3152962/9bca16ce-19ae-4891-a1a6-16e3af95ba21">
 </p>
 
 You can easily set up a reasonably complex rhythm source, with triggers from A, B, logical operations on A and B (I like to 
