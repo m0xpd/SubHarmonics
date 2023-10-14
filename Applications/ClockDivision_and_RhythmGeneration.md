@@ -84,6 +84,12 @@ T0 = Tx.m.n/*gcd(m,n)*
 
 where Tx is the clock period and *gcd()* is the [greatest common divisor.](https://en.wikipedia.org/wiki/Greatest_common_divisor)
 
+Some examples are tabulated below:
+
+<p width=100%, align="center">
+<img width=25%, src="https://github.com/m0xpd/SubHarmonics/assets/3152962/9bca16ce-19ae-4891-a1a6-16e3af95ba21">
+</p>
+
 You can easily set up a reasonably complex rhythm source, with triggers from A, B, logical operations on A and B (I like to 
 use an external AND gate driven by A and B, occasionally with extra inputs - as there is no AND modulator internal to SubHarmonics) 
 and, of course, ModMix. 
