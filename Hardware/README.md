@@ -9,11 +9,11 @@ a Control Board, which contains all the front panel components including the div
 
 ## Main Board Description
 
-The Main Board schematic is available [here](https://github.com/m0xpd/SubHarmonics/blob/main/Hardware/Main%20Board%20Schematic.png) (or by clicking on the graphic below)
+The Main Board schematic is available [here](https://github.com/m0xpd/SubHarmonics/blob/main/Hardware/SubHarmonics%20Main%20Board%20Schematic%20v3.png) (or by clicking on the graphic below)
 
 <p align='center' width=100%>
 
-<img width=50%, src="https://github.com/m0xpd/SubHarmonics/blob/main/Hardware/Main%20Board%20Schematic.png">
+<img width=50%, src="https://github.com/m0xpd/SubHarmonics/blob/main/Hardware/SubHarmonics%20Main%20Board%20Schematic%20v3.png">
 </p>
 
 The VCO was inspired by the ['Shapes VCO' design by Moritz Klein](https://www.youtube.com/watch?v=QBatvo8bCa4), subsequently used in his VCO for the [Erica Synths Edu DIY VCO](https://www.ericasynths.lv/shop/diy-kits-1/edu-diy-vco/). Since developing 'SubHarmonics', I have learned that the core of the 40106 VCO was not a Klein original, but had been proposed earlier by Mark Shaner (a.k.a. "Synthmonger"), who published the idea [here](https://electro-music.com/forum/topic-28799.html) back in 2008.
