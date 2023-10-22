@@ -19,7 +19,7 @@ The Main Board schematic is available [here](https://github.com/m0xpd/SubHarmoni
 The VCO was inspired by the ['Shapes VCO' design by Moritz Klein](https://www.youtube.com/watch?v=QBatvo8bCa4), subsequently used in his VCO for the [Erica Synths Edu DIY VCO](https://www.ericasynths.lv/shop/diy-kits-1/edu-diy-vco/). Since developing 'SubHarmonics', I have learned that the core of the 40106 VCO was not a Klein original, but had been proposed earlier by Mark Shaner (a.k.a. "Synthmonger"), who published the idea [here](https://electro-music.com/forum/topic-28799.html) back in 2008.
 
 The output of this 'Shaner' 40106 VCO - or the input from an external 'X' source - is applied to the 'Divider_In' input of the SubHarmonic Dividers, the input stages of which produce a 0 : 5V pulse at node 'X' on the schematic. There is a detailed description of the derivation of this pulse signal, including
-discussion of options to set emitter resistor R19 to either maximise input sensitivity or enable a degree of noise immunity, [here.](https://github.com/m0xpd/SubHarmonics/blob/main/Hardware/Graphics/Input%20Stage%20Switching%20Behaviour.md) 
+discussion of options to set shared emitter resistor R19 to either maximise input sensitivity or enable a degree of noise immunity, [here.](https://github.com/m0xpd/SubHarmonics/blob/main/Hardware/Graphics/Input%20Stage%20Switching%20Behaviour.md) 
 
 The system was designed around 'available materials' I found lying around my bench - in this case, mainly CD4000-series CMOS logic devices. 
 
