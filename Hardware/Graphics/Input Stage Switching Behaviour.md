@@ -1,4 +1,4 @@
-# Input Stage Switching Behaviour
+# Input Switching Behaviour
 
 The pulses applied to the SubHarmonics' divider chains are derived from either 
 * the internal VCO or
