@@ -1,6 +1,8 @@
 # Input Stage Switching Behaviour
 
-The pulses applied to the harmonic divider chains is derived from either the internal VCO or the "Ext X In" input 
+The pulses applied to the SubHarmonics' divider chains are derived from either 
+* the internal VCO or
+* the "Ext X In" input 
 via the input stage formed of Q4 & Q5, Q6 and IC6C.
 
 These active stages amplify the input and form it into a pulse signal, which is saturated at levels of the +/- 12V 
