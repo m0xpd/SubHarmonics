@@ -30,8 +30,8 @@ superimoses a (white) horizontal line on the screen and records a numerical valu
 equal and there is no hysteresis.
 
 The 470 Ohm resistor results in switching at 1.4V on upward transitions of the input (HIGH THRESHOLD = 1.4V, shown by the 'A cursor') 
-whilst swithing on the downward transition occurs at the lower input voltage of ~1.05V (LOW THRESHOLD = 1.05V, shown by the 'B cursor',
-which adds a dashed white line). There is now approximatey 0.35V of hysteresis.
+whilst switching on the downward transition occurs at the lower input voltage of ~1.05V (LOW THRESHOLD = 1.05V, shown by the 'B cursor',
+which adds a dashed white horizontal line). There is now approximatey 0.35V of hysteresis.
 
 Although it is possible to further increase the emitter resistor magnitude in other applications (and thereby achieve greater hysteresis),
 this is won at the expense of still greater increases in the value of HIGH THRESHOLD. I have found that 470R is the largest 
