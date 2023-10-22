@@ -49,7 +49,10 @@ The modified (R19=470R) circuit operates well in the presence of the noise,
 <img src="Modified%20Switching%20in%20Noise%20Labelled.png" width="500"> 
 </p>
 
-but the circuit in original configuration (R19 = 10R) suffers visible disruption with the same input
+with nice, clear, regular yransitions of the (Blue) output trace.
+
+However, the circuit in original configuration (R19 = 10R) suffers visible disruption of the (Blue) output 
+with the same input
 <p width=100%, align="center">
 <img src="Original%20Switching%20in%20Same%20Noise%20Labelled.png" width="500"> 
 </p>
