@@ -79,7 +79,7 @@ but NO Schmitt Trigger action, or
 Schmitt Trigger 'hysteresis', or
 * you could opt for a mid-point compromise.
 
-I have built both versions.
+I have built both versions (R19 = 10R, R19 = 470R). Both work well.
 
 I used the original (R19=10R) for six months and never noticed any problem with noise immunity on the 'Ext X In' input 
 which made me wish there was Schmitt Trigger action. However, we are used to having high amplitude, noise-free signals
