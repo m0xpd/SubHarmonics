@@ -31,8 +31,35 @@ The 470 Ohm resistor results in switching at 1.4V on upward transitions of the i
 on the downward transition occurs at the lower input voltage of ~1.05V (LOW THRESHOLD = 1.05V). There is now approximatey 
 0.35V of hysteresis.
 
+Although it is possible to further increse the emitter resistor magnitude in other applications (and achieve greater hysteresis),
+this is won at the expense of still greater increases in the value of HIGH THRESHOLD. I have found that 470R is the greatest 
+value that can be used in SubHarmonics in order that the signal from the internal VCO is still detected. 
+
 If we deliberately add 350mV of noise:
 <p width=100%, align="center">
 <img src="Noise%202.png" width="500"> 
 </p>
 to the input, the potential benefits of this Schmitt Trigger action become clear...
+
+The modified (R19=470R) circuit operates well in the presence of the noise,
+<p width=100%, align="center">
+<img src="Modified%20Switching%20in%20Noise.png" width="500"> 
+</p>
+
+but the circuit in original configuration (R19 = 10R) suffers visible disruption with the same input
+<p width=100%, align="center">
+<img src="Original%20Switching%20in%20Same%20Noise%20Labelled.png" width="500"> 
+</p>
+
+This can be made to LOOK more dramatic by reducing the input signal (and keeping the noise amplitude the same). 
+<p width=100%, align="center">
+<img src="Original%20Switching%20in%20Same%20Noise%20Near%20Threshold%20Labelled.png" width="500"> 
+</p>
+
+Note that it is not the peak 'signal' to noise ratio that is important; rather it is the THRESHOLD to noise ratio. 
+What we did most significantly in the figure above was change the GRADIENT of the input signal around the 
+threshold voltage, so we changed the effective timescale; the system spent more time around the decision point
+and there was more opportunity for the noise to cause false triggers, which showed up as visible lines on the 'scope.
+
+ 
+
