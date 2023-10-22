@@ -9,11 +9,11 @@ a Control Board, which contains all the front panel components including the div
 
 ## Main Board Description
 
-The Main Board schematic is available [here](https://github.com/m0xpd/SubHarmonics/blob/main/Hardware/SubHarmonics%20Main%20Board%20Schematic%20v3.png) (or by clicking on the graphic below)
+The Main Board schematic is available [here](https://github.com/m0xpd/SubHarmonics/blob/main/Hardware/SubHarmonics%20Main%20Board%20Schematic%20v2.png) (or by clicking on the graphic below)
 
 <p align='center' width=100%>
 
-<img width=50%, src="https://github.com/m0xpd/SubHarmonics/blob/main/Hardware/SubHarmonics%20Main%20Board%20Schematic%20v3.png">
+<img width=50%, src="https://github.com/m0xpd/SubHarmonics/blob/main/Hardware/SubHarmonics%20Main%20Board%20Schematic%20v2.png">
 </p>
 
 The VCO was inspired by the ['Shapes VCO' design by Moritz Klein](https://www.youtube.com/watch?v=QBatvo8bCa4), subsequently used in his VCO for the [Erica Synths Edu DIY VCO](https://www.ericasynths.lv/shop/diy-kits-1/edu-diy-vco/). Since developing 'SubHarmonics', I have learned that the core of the 40106 VCO was not a Klein original, but had been proposed earlier by Mark Shaner (a.k.a. "Synthmonger"), who published the idea [here](https://electro-music.com/forum/topic-28799.html) back in 2008.
@@ -33,11 +33,11 @@ The outputs of the dividers, A and B (and their complements, not_A and not_B) ar
 
 The results of the OR and XOR operations are mixed in a voltage-controlled crossfader, implemented in half an LM13700.
 
-The [schematic](https://github.com/m0xpd/SubHarmonics/blob/main/Hardware/SubHarmonics%20Main%20Board%20Schematic%20v3.png) and [BoM](https://github.com/m0xpd/SubHarmonics/blob/main/Hardware/PCBs/SubHarmonics%20Main%20Board%20BoM%20v3.txt) show LM324 quad op-amps. These work fine in this application, but you can substitute the ubiquitous TL074 if you prefer. 
+The [schematic](https://github.com/m0xpd/SubHarmonics/blob/main/Hardware/SubHarmonics%20Main%20Board%20Schematic%20v2.png) and [BoM](https://github.com/m0xpd/SubHarmonics/blob/main/Hardware/PCBs/SubHarmonics%20Main%20Board%20BoM%20v2.txt) show LM324 quad op-amps. These work fine in this application, but you can substitute the ubiquitous TL074 if you prefer. 
 
 The Main Board includes an In-Circuit Serial Programming (ICSP) interface (JP1) to facilitate programming the PIC.
 
-There is a [.sch](https://github.com/m0xpd/SubHarmonics/blob/main/Hardware/PCBs/SubHarmonics%20Main%20Board%20v3.sch) file, a [.brd](https://github.com/m0xpd/SubHarmonics/blob/main/Hardware/PCBs/SubHarmonics%20Main%20Board%20v3.brd) file and a [BoM](https://github.com/m0xpd/SubHarmonics/blob/main/Hardware/PCBs/SubHarmonics%20Main%20Board%20v3%20BoM.txt) for the Main Board in EAGLE format in the [PCBs folder](https://github.com/m0xpd/SubHarmonics/tree/main/Hardware/PCBs).
+There is a [.sch](https://github.com/m0xpd/SubHarmonics/blob/main/Hardware/PCBs/SubHarmonics%20Main%20Board%20v2.sch) file, a [.brd](https://github.com/m0xpd/SubHarmonics/blob/main/Hardware/PCBs/SubHarmonics%20Main%20Board%20v2.brd) file and a [BoM](https://github.com/m0xpd/SubHarmonics/blob/main/Hardware/PCBs/SubHarmonics%20Main%20Board%20BoM%20v2.txt) for the Main Board in EAGLE format in the [PCBs folder](https://github.com/m0xpd/SubHarmonics/tree/main/Hardware/PCBs).
 
 ## Control Board Description
 
