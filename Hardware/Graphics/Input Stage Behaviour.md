@@ -24,3 +24,15 @@ The images below show the switching behaviour of SubHarmonics with R19 at values
 <img src="Modified%20Switching%20Labelled.png" width="500"> 
 </p>
 
+You can see that the 10 Ohm resistor results in swithing (of the  (Blue) output at the same (0.85V) point on the upward 
+and downward transistions of the (Cyan) input - i.e. the HIGH and LOW THRESHOLDS are equal and there is no hysteresis.
+
+The 470 Ohm resistor results in switching at 1.4V on upward transitions of the input (HIGH THRESHOLD = 1.4V) whilst swithing
+on the downward transition occurs at the lower input voltage of ~1.05V (LOW THRESHOLD = 1.05V). There is now approximatey 
+0.35V of hysteresis.
+
+If we deliberately add 350mV of noise:
+<p width=100%, align="center">
+<img src="Noise%202.png" width="500"> 
+</p>
+to the input, the potential benefits of this Schmitt Trigger action become clear...
