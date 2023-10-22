@@ -1,4 +1,4 @@
-# SubHarmonics' X Input Stage behaviour
+# X Input Stage Switching Behaviour
 
 The pulses applied to the harmonic divider chains is derived from either the internal VCO or the External input 
 via the input stage formed of Q4 & Q5, Q6 and IC6C.
