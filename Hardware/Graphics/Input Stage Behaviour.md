@@ -1,4 +1,4 @@
-SubHarmonics' X Input Stage behaviour
+# SubHarmonics' X Input Stage behaviour
 
 The pulses applied to the harmonic divider chains is derived from either the internal VCO or the External input 
 via the input stage formed of Q4 & Q5, Q6 and IC6C.
@@ -67,5 +67,26 @@ What we did most significantly in the figure above was change the GRADIENT of th
 threshold voltage, so we changed the effective timescale; the system spent more time around the decision point
 and there was more opportunity for the noise to cause false triggers, which showed up as visible lines on the 'scope.
 
- 
+So, if you build a 'SubHarmonics' module you have a choice.
+* you could opt for the original R19 = 10R value, with the best possible input sensitivity (switching threshold = 0.85V), 
+but NO Schmitt Trigger action, or
+* you could opt for the maximum R19 = 470R value, with a loss of input sensitivity (HIGH THSRESHOLD = 1.4V) and ~0.35V 
+Schmitt Trigger 'hysteresis', or
+* you could opt for a mid-point compromise.
 
+I have built both versions.
+
+I used the original (R19=10R) for six months and never noticed any problem with noise immunity on the 'Ext X In' input 
+which made me wish there was Schmitt Trigger action. However, we are used to having high amplitude, noise-free signals
+avaialble from our oscillators, so that's hardly surprising.
+
+On the other hand, now I've added the extra Schmitt Trigger functionality, the same high amplitude oscillator and clock 
+signals can still trigger the SubHarmonics input but I get the "extra insurance" of 0.35V of noise immunity at no additional
+expense (a 470R resistor is no more expensive than a 10R resistor - or even a wire link!).
+
+So - all things considered - I guess I prefer the revised version with R19 = 470R. You must make your own choice.
+ 
+# Acknowledgement
+
+All this interest in the magnitude of R19 and the reinstatement of Schmitt Trigger action was prompted by a question raised
+by Yves Chartier, and subsequent discussion. I am grateful for Yves' valuable contribution and support. 
