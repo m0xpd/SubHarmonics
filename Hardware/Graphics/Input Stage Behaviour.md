@@ -18,9 +18,9 @@ Unfortunately, this 10R resistor destroys almost all the hysteresis which is the
 The images below show the switching behaviour of SubHarmonics with R19 at values of 10R and 470R.
 
 <p width=100%, align="center">
-<img height="200",src="Original%20Switching%20Labelled.png"> 
+<img src="Original%20Switching%20Labelled.png"> 
 </p>
 <p width=100%, align="center">
-<img height="200",src="Modified%20Switching%20Labelled.png"> 
+<img src="Modified%20Switching%20Labelled.png"> 
 </p>
 
