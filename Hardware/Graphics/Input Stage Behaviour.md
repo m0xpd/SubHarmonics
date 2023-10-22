@@ -21,6 +21,6 @@ The images below show the switching behaviour of SubHarmonics with R19 at values
 <img src="Original%20Switching%20Labelled.png" width="300"> 
 </p>
 <p width=100%, align="center">
-<img src="Modified%20Switching%20Labelled.png"> 
+<img src="Modified%20Switching%20Labelled.png" width="300"> 
 </p>
 
