@@ -36,14 +36,16 @@ this is won at the expense of still greater increases in the value of HIGH THRES
 value that can be used in SubHarmonics in order that the signal from the internal VCO is still detected. 
 
 If we deliberately add 350mV of noise:
+
 <p width=100%, align="center">
 <img src="Noise%202.png" width="500"> 
 </p>
 to the input, the potential benefits of this Schmitt Trigger action become clear...
 
 The modified (R19=470R) circuit operates well in the presence of the noise,
+
 <p width=100%, align="center">
-<img src="Modified%20Switching%20in%20Noise.png" width="500"> 
+<img src="Modified%20Switching%20in%20Noise%20Labelled.png" width="500"> 
 </p>
 
 but the circuit in original configuration (R19 = 10R) suffers visible disruption with the same input
