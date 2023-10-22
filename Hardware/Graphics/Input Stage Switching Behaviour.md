@@ -6,7 +6,7 @@ The pulses applied to the SubHarmonics' divider chains are derived from either
 
 via the input stage formed of Q4 & Q5, Q6 and IC6C.
 
-These active stages amplify the input and form it into a pulse signal, which is saturated at levels of the +/- 12V 
+These active elements amplify the input and form it into a pulse signal, which is saturated at levels of the +/- 12V 
 power rails (at the collector of Q6) and subsequently half-wave rectified, inverted and attenuated (by D6 and IC6C)
 to pulses of approximately 5V.
 
