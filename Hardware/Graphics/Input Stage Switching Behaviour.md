@@ -10,7 +10,7 @@ to pulses of approximately 5V.
 The Q4, Q5 stage is a stripped-down version of a conventional transistor [Schmitt Trigger.](https://en.wikipedia.org/wiki/Schmitt_trigger) 
 
 In the present application, the stage is required to have high sensitivity (a low value of 'HIGH THRESHOLD'), as the 
-output of the VCO is rather small (~1.5 V). Accordingly, a low magnitude of the emitter resistor R19 = 10R was initially 
+output of the VCO is rather small (~1.5 V peak). Accordingly, a low magnitude of the emitter resistor R19 = 10R was initially 
 chosen in order to obtain a switching threshold of 0.85V.
 
 Unfortunately, this 10R resistor destroys almost all the hysteresis which is the defining property of the Schmitt Trigger.
@@ -37,7 +37,7 @@ Although it is possible to further increase the emitter resistor magnitude in ot
 this is won at the expense of still greater increases in the value of HIGH THRESHOLD. I have found that 470R is the largest 
 value that can be used in SubHarmonics in order that the signal from the internal VCO is still detected. 
 
-If we deliberately add 350mV of noise:
+If we deliberately add 350mV (pk-pk) of noise:
 
 <p width=100%, align="center">
 <img src="Noise%202.png" width="500"> 
