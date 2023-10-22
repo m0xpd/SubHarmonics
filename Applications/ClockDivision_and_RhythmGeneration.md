@@ -49,7 +49,7 @@ as it will generate a different pattern and potentially useful if you don't have
 is only relevant to the output when used in 'analog' applications - so switching between the two modulators is best achieved 
 with changes between extreme settings of the 'Mix' control (0 or 5V CV) to give either the XOR or the OR modulator.
 
-The onsequence of changing the Mix control is illustrated in this example:
+The consequence of changing the Mix control is illustrated in this example:
 
 <p width=100%, align="center">
 <img width=75%, src="https://github.com/m0xpd/SubHarmonics/assets/3152962/8604f31f-071f-46c7-b7de-0dbd757d9ca6">
