@@ -40,7 +40,8 @@ If we deliberately add 350mV of noise:
 <p width=100%, align="center">
 <img src="Noise%202.png" width="500"> 
 </p>
-to the input, the potential benefits of this Schmitt Trigger action become clear...
+to the input, the potential benefits of this Schmitt Trigger action become clear.
+
 
 The modified (R19=470R) circuit operates well in the presence of the noise,
 
